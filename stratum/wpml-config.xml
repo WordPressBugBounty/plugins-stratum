@@ -1,0 +1,213 @@
+<wpml-config>
+  <elementor-widgets>
+    <widget name="stratum-advanced-accordion">
+      <fields>
+        <field>accordion_items</field>
+      </fields>
+      <fields-in-item items_of="accordion_items">
+        <field>text</field>
+        <field>title</field>
+      </fields-in-item>
+    </widget>
+    <widget name="stratum-advanced-google-map">
+      <fields>
+        <field>marker_title</field>
+        <field>marker_content</field>
+        <field>markers</field>
+      </fields>
+      <fields-in-item items_of="markers">
+        <field>marker_title</field>
+        <field>marker_content</field>
+      </fields-in-item>
+    </widget>
+    <widget name="stratum-advanced-posts">
+      <fields>
+        <field>meta_fields_divider</field>
+        <field>read_more_text</field>
+        <field>load_more_text</field>
+      </fields>
+    </widget>
+    <widget name="stratum-advanced-slider">
+      <fields>
+        <field>slides</field>
+      </fields>
+      <fields-in-item items_of="slides">
+        <field>text</field>
+        <field>sub_title</field>
+        <field>title</field>
+        <field>description</field>
+        <field>button_text</field>
+        <field key_of="button_link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="stratum-advanced-tabs">
+      <fields>
+        <field>tabs_items</field>
+      </fields>
+      <fields-in-item items_of="tabs_items">
+        <field>text</field>
+        <field>tab_title</field>
+        <field>tab_text</field>
+      </fields-in-item>
+    </widget>
+    <widget name="stratum-banner">
+      <fields>
+        <field>title</field>
+        <field>text</field>
+        <field>link</field>
+      </fields>
+    </widget>
+    <widget name="stratum-circle-progress-bar">
+      <fields>
+        <field>text</field>
+      </fields>
+    </widget>
+    <widget name="stratum-counter">
+      <fields>
+        <field>thousands_separator</field>
+        <field>decimal_separator</field>
+        <field>prefix</field>
+        <field>suffix</field>
+      </fields>
+    </widget>
+    <widget name="stratum-flip-box">
+      <fields>
+        <field>front_title_text</field>
+        <field>front_description_text</field>
+        <field>back_title_text</field>
+        <field>back_description_text</field>
+        <field>button_text</field>
+        <field key_of="link">url</field>
+      </fields>
+    </widget>
+    <widget name="stratum-image-accordion">
+      <fields>
+        <field>image_content</field>
+      </fields>
+      <fields-in-item items_of="image_content">
+        <field>item_title</field>
+        <field>item_description</field>
+        <field>button_text</field>
+        <field key_of="link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="stratum-image-hotspot">
+      <fields>
+        <field>hot_spots</field>
+      </fields>
+      <fields-in-item items_of="hot_spots">
+        <field>tooltip_title</field>
+        <field>tooltip_content</field>
+      </fields-in-item>
+    </widget>
+    <widget name="stratum-price-list">
+      <fields>
+        <field>list_title</field>
+        <field>list_items</field>
+      </fields>
+      <fields-in-item items_of="list_items">
+        <field>item_title</field>
+        <field>item_price</field>
+      </fields-in-item>
+    </widget>
+    <widget name="stratum-price-menu">
+      <fields>
+        <field>menu_items</field>
+      </fields>
+      <fields-in-item items_of="menu_items">
+        <field>menu_title</field>
+        <field>menu_price</field>
+        <field>menu_description</field>
+      </fields-in-item>
+    </widget>
+    <widget name="stratum-price-table">
+      <fields>
+        <field>title</field>
+        <field>subtitle</field>
+        <field>price_text</field>
+        <field>price_currency</field>
+        <field>price_description</field>
+        <field>content_items</field>
+        <field>button_text</field>
+        <field key_of="button_url">url</field>
+        <field>price</field>
+      </fields>
+      <fields-in-item items_of="content_items">
+        <field>item_text</field>
+      </fields-in-item>
+    </widget>
+    <widget name="stratum-testimonial-carousel">
+      <fields>
+        <field>slides</field>
+      </fields>
+      <fields-in-item items_of="slides">
+        <field>heading</field>
+        <field>subtitle</field>
+        <field>content</field>
+      </fields-in-item>
+    </widget>
+    <widget name="stratum-content-switcher">
+      <fields>
+        <field>content_items</field>
+      </fields>
+      <fields-in-item items_of="content_items">
+        <field>title</field>
+      </fields-in-item>
+    </widget>
+    <widget name="stratum-countdown">
+      <fields>
+        <field>label_years</field>
+        <field>label_months</field>
+        <field>label_weeks</field>
+        <field>label_days</field>
+        <field>label_hours</field>
+        <field>label_minutes</field>
+        <field>label_seconds</field>
+        <field key_of="expire_redirect_url">url</field>
+      </fields>
+    </widget>
+    <widget name="stratum-horizontal-timeline">
+      <fields>
+        <field>items_content</field>
+      </fields>
+      <fields-in-item items_of="items_content">
+        <field>item_title</field>
+        <field>item_description</field>
+        <field>item_description_editor</field>
+        <field>item_meta</field>
+        <field>item_point_text</field>
+        <field key_of="item_link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="stratum-table">
+      <fields>
+        <field>table_head_items</field>
+        <field>table_body_items</field>
+      </fields>
+      <fields-in-item items_of="table_head_items">
+        <field>table_head_title</field>
+      </fields-in-item>
+      <fields-in-item items_of="table_body_items">
+        <field>table_col_title</field>
+      </fields-in-item>
+    </widget>
+    <widget name="stratum-vertical-timeline">
+      <fields>
+        <field>image_content</field>
+      </fields>
+      <fields-in-item items_of="image_content">
+        <field>item_title</field>
+        <field>item_description</field>
+        <field>item_description_editor</field>
+        <field>item_meta</field>
+        <field>item_point_text</field>
+        <field key_of="item_link">url</field>
+      </fields-in-item>
+    </widget>
+    <widget name="stratum-lottie-animations">
+      <fields>
+        <field>lottie_url</field>
+      </fields>
+    </widget>
+  </elementor-widgets>
+</wpml-config>
