@@ -160,10 +160,17 @@ $frontend = new Frontend;
 										</span>
 									<?php
 									elseif ( $table_td[ $j ][ 'content_type' ]  === 'template' ) :
-										$get_template = $frontend->get_builder_content( $table_td[ $j ][ 'template' ], true );
 
-										if ( ! empty( $get_template ) ) :
-											echo  $get_template; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+										$template_content = '';
+										$template_id = $table_td[ $j ][ 'template' ];
+										$template_id = stratum_translate_post( $template_id );
+
+										if ( ( 'publish' === get_post_status ( $template_id ) ) || current_user_can( 'edit_post', $template_id ) ) {
+											$template_content = $frontend->get_builder_content_for_display( $template_id, true );
+										}
+
+										if ( ! empty( $template_content ) ) :
+											echo  $template_content; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 										else : ?>
 											<span><?php echo esc_html__( 'Template is not found', 'stratum' ); ?></span>
 										<?php endif;

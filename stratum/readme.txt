@@ -3,9 +3,9 @@ Contributors: MotoPress
 Donate link: https://motopress.com/
 Tags: elementor, elementor addons, elementor plugins, elementor widgets, elementor extras, elementor essential addons, page builder, accordion, google map, slider, tabs, instagram, timeline, lottie, countdown, table
 Requires at least: 5.0
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 1.4.4
+Stable tag: 1.4.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -110,6 +110,9 @@ Stratum plugin is distributed under the terms of the GNU GPL.
 
 == Changelog ==
 
+= 1.4.5, Nov 14 2024 =
+* Minor bugfixes and improvements.
+
 = 1.4.4, Aug 20 2024 =
 * Minor bugfixes and improvements.
 
@@ -126,90 +129,3 @@ Stratum plugin is distributed under the terms of the GNU GPL.
 = 1.4.0, Mar 25 2024 =
 * Added Instagram Access Token encryption.
 * Minor bugfixes and improvements.
-
-= 1.3.16, Feb 13 2024 =
-* Minor bugfixes and improvements.
-
-= 1.3.15, May 24 2023 =
-* Improved compatibility with latest Elementor versions.
-* Minor bugfixes and improvements.
-
-= 1.3.14, Mar 10 2023 =
-* Fixed miscellaneous Elementor deprecations.
-
-= 1.3.13, Mar 23 2022 =
-* Fixed an issue with missing descriptions in the Vertical Timeline widget.
-* Fixed an issue with multiple markers in the Advanced Google Maps widget.
-* Fixed an issue when the Swiper slider may not have been initialized with the "Improved Asset Loading" Elementor option enabled.
-* Fixed an issue with the currency alignment in the Price Table widget.
-* Minor bugfixes and improvements.
-
-= 1.3.12, Nov 30 2021 =
-* Fixed an issue with Advanced Slider on mobile devices.
-
-= 1.3.11, Oct 27 2021 =
-* Security - sanitization and escaping.
-
-= 1.3.10, Aug 17 2021 =
-* Fixed an issue with links in Horizontal Timeline and Accordion widgets.
-
-= 1.3.9, Jul 21 2021 =
-* Minor bugfixes and improvements.
-
-= 1.3.8, May 5 2021 =
-* Minor bugfixes and improvements.
-
-= 1.3.7, Apr 1 2021 =
-* Added Table widget.
-* Added Content Switcher widget.
-* Added the ability to automatically refresh Instagram access token.
-* Minor bugfixes and improvements.
-
-= 1.3.6, Feb 17 2021 =
-* Minor bugfixes and improvements.
-
-= 1.3.5, Dec 23 2020 =
-* Improved compatibility with WordPress 5.6 and Elementor Pro.
-* Minor bugfixes and improvements.
-
-= 1.3.4, Sep 8 2020 =
-* Minor bugfixes and improvements.
-
-= 1.3.3, Aug 28 2020 =
-* Added Vertical Timeline widget.
-* Added Horizontal Timeline widget.
-* Added Lottie Animations widget.
-* Added Countdown widget.
-
-= 1.3.2, Aug 12 2020 =
-* Improved compatibility with WordPress 5.5.
-
-= 1.3.1, Jul 31 2020 =
-* Fixed an issue with Instagram widget.
-
-= 1.3.0, Jun 10 2020 =
-* Added Advanced Accordion widget.
-* Added Advanced Tabs widget.
-* Added Image Accordion widget.
-* Improved the plugin color palette.
-* Added the Templates Library control.
-* Fixed an issue with "Instagram getToken" in the Instagram widget.
-* Fixed an issue with controls in the Advanced Google Maps widget.
-* Minor bugfixes and improvements.
-
-= 1.2.0, Apr 29 2020 =
-* Added Advanced Google Map widget.
-* Added Advanced Posts widget.
-* Added Advanced Slider widget.
-* Added Testimonial Carousel widget.
-* Added Flip Box widget.
-* Minor bugfixes and improvements.
-
-= 1.1.0, Mar 30 2020 =
-* Added Image Hotspot widget.
-* Added Masonry Gallery widget.
-* Added Circular Progress Bar widget.
-* Minor bugfixes and improvements.
-
-= 1.0.0, Mar 6 2020 =
-* Initial commit.

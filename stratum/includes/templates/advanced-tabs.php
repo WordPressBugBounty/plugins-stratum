@@ -112,10 +112,12 @@ $once_active_content = false;
 						} elseif ( $item['content_type'] == 'template' ) {
 							if ( !empty($item['tab_template']) ) {
 
-								$tab_template_id = $item['tab_template'];
-								$tab_template_id = stratum_translate_post( $tab_template_id );
+								$template_id = $item['tab_template'];
+								$template_id = stratum_translate_post( $template_id );
 
-								echo $frontend->get_builder_content($tab_template_id, true); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+								if ( ( 'publish' === get_post_status ( $template_id ) ) || current_user_can( 'edit_post', $template_id ) ) {
+									echo $frontend->get_builder_content_for_display( $template_id, true ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+								}
 							}
 						}
 						?>

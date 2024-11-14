@@ -155,6 +155,11 @@ class Admin_Page {
 			<div class="stratum-about-list">
 
 <!-- start markdowntohtml.com -->
+<p>= 1.4.5, Nov 14 2024 =</p>
+<ul>
+<li>Minor bugfixes and improvements.</li>
+</ul>
+
 <p>= 1.4.4, Aug 20 2024 =</p>
 <ul>
 <li>Minor bugfixes and improvements.</li>

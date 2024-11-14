@@ -121,7 +121,13 @@ $once_active = false;
 								}
 							} elseif ( $item['content_type'] == 'template' ) {
 								if ( !empty($item['accordion_template']) ) {
-									echo $frontend->get_builder_content($item['accordion_template'], true); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+
+									$template_id = $item['accordion_template'];
+									$template_id = stratum_translate_post( $template_id );
+
+									if ( ( 'publish' === get_post_status ( $template_id ) ) || current_user_can( 'edit_post', $template_id ) ) {
+										echo $frontend->get_builder_content_for_display( $template_id, true ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+									}
 								}
 							}
 							?>
