@@ -7,7 +7,6 @@
 
 namespace Stratum;
 
-use \Elementor\Core\Schemes;
 use \Elementor\Controls_Manager;
 use \Elementor\Group_Control_Border;
 use \Elementor\Utils;

@@ -8,7 +8,7 @@
 namespace Stratum;
 
 use \Elementor\Controls_Manager;
-use Elementor\Core\Schemes;
+use Elementor\Core\Kits\Documents\Tabs\Global_Typography;
 use Elementor\Utils;
 use Elementor\Group_Control_Border;
 use Elementor\Group_Control_Background;
@@ -858,7 +858,9 @@ class Flip_box extends Stratum_Widget_Base {
 				Group_Control_Typography::get_type(),
 				[
 					'name' => 'front_title_typography',
-					'scheme' => Schemes\Typography::TYPOGRAPHY_1,
+					'global' => [
+						'default' => Global_Typography::TYPOGRAPHY_PRIMARY,
+					],
 					'selector' => '{{WRAPPER}} .stratum-flip-box__front .stratum-flip-box__title',
 					'condition' => [
 						'front_title_text!' => ''
@@ -896,7 +898,9 @@ class Flip_box extends Stratum_Widget_Base {
 				Group_Control_Typography::get_type(),
 				[
 					'name' => 'front_description_typography',
-					'scheme' => Schemes\Typography::TYPOGRAPHY_3,
+					'global' => [
+						'default' => Global_Typography::TYPOGRAPHY_TEXT,
+					],
 					'selector' => '{{WRAPPER}} .stratum-flip-box__front .stratum-flip-box__description',
 					'condition' => [
 						'front_description_text!' => ''
@@ -1045,7 +1049,9 @@ class Flip_box extends Stratum_Widget_Base {
 				Group_Control_Typography::get_type(),
 				[
 					'name' => 'back_title_typography',
-					'scheme' => Schemes\Typography::TYPOGRAPHY_1,
+					'global' => [
+						'default' => Global_Typography::TYPOGRAPHY_PRIMARY,
+					],
 					'selector' => '{{WRAPPER}} .stratum-flip-box__back .stratum-flip-box__title',
 					'condition' => [
 						'back_title_text!' => ''
@@ -1083,7 +1089,9 @@ class Flip_box extends Stratum_Widget_Base {
 				Group_Control_Typography::get_type(),
 				[
 					'name' => 'back_description_typography',
-					'scheme' => Schemes\Typography::TYPOGRAPHY_3,
+					'global' => [
+						'default' => Global_Typography::TYPOGRAPHY_TEXT,
+					],
 					'selector' => '{{WRAPPER}} .stratum-flip-box__back .stratum-flip-box__description',
 					'condition' => [
 						'back_description_text!' => ''
@@ -1130,7 +1138,9 @@ class Flip_box extends Stratum_Widget_Base {
 				[
 					'name' => 'button_typography',
 					'selector' => '{{WRAPPER}} .stratum-flip-box__button',
-					'scheme' => Schemes\Typography::TYPOGRAPHY_4,
+					'global' => [
+						'default' => Global_Typography::TYPOGRAPHY_ACCENT,
+					],
 					'condition' => [
 						'button_text!' => '',
 						'show_button!' => ''

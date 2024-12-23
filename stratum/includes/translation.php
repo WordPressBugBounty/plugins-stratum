@@ -9,7 +9,7 @@ function stratum_load_textdomain() {
     load_plugin_textdomain( 'stratum', false, plugin_basename( STRATUM_PLUGIN_DIR ) . '/languages/' );
 }
 
-add_action( 'plugins_loaded', 'stratum_load_textdomain' );
+add_action( 'init', 'stratum_load_textdomain' );
 
 
 /*

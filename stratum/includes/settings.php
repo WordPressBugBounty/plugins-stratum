@@ -22,7 +22,8 @@ class Settings {
 		    require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 		}
 
-	    $this->pluginData = get_plugin_data(STRATUM_PLUGIN_FILE);
+		// shouldn't translate anything before 'init' hook
+	    $this->pluginData = get_plugin_data(STRATUM_PLUGIN_FILE, true, false);
 	    $this->version = $this->pluginData['Version'];
 	    $this->prefix = $this->pluginData['TextDomain'];
 	    $this->pluginName = $this->pluginData['Name'];

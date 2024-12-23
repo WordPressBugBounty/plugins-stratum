@@ -49,6 +49,7 @@ class Advanced_Posts extends Stratum_Widget_Base {
 
 	public function get_style_depends() {
 		return [
+			'swiper',
 			'font-awesome-5-all',
 			'font-awesome-4-shim',
 			'scroll-anim-effects'

@@ -12,7 +12,6 @@ use Elementor\Group_Control_Box_Shadow;
 use Elementor\Group_Control_Border;
 use Elementor\Repeater;
 use Elementor\Utils;
-use Elementor\Core\Schemes;
 use Elementor\Plugin;
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
@@ -39,6 +38,7 @@ class Testimonial_Carousel extends Stratum_Widget_Base {
 
 	public function get_style_depends() {
 		return [
+			'swiper',
 			'font-awesome-5-all',
 			'font-awesome-4-shim'
 		];
