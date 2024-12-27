@@ -5,7 +5,7 @@ Tags: elementor, elementor addons, elementor plugins, elementor widgets, element
 Requires at least: 5.0
 Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 1.4.6
+Stable tag: 1.4.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -110,25 +110,8 @@ Stratum plugin is distributed under the terms of the GNU GPL.
 
 == Changelog ==
 
+= 1.4.7, Dec 27 2024 =
+* Resolved an issue with the Instagram widget. An Instagram Business account is required, and the app must be reauthorized to function properly.
+
 = 1.4.6, Dec 23 2024 =
 * Improved compatibility with Elementor 3.26.
-
-= 1.4.5, Nov 14 2024 =
-* Minor bugfixes and improvements.
-
-= 1.4.4, Aug 20 2024 =
-* Minor bugfixes and improvements.
-
-= 1.4.3, Jun 28 2024 =
-* Improved compatibility with WPML plugin.
-* Minor bugfixes and improvements.
-
-= 1.4.2, Jun 14 2024 =
-* Minor bugfixes and improvements.
-
-= 1.4.1, May 30 2024 =
-* Improved compatibility with WPML plugin.
-
-= 1.4.0, Mar 25 2024 =
-* Added Instagram Access Token encryption.
-* Minor bugfixes and improvements.

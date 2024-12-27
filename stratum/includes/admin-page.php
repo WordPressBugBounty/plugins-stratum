@@ -155,6 +155,11 @@ class Admin_Page {
 			<div class="stratum-about-list">
 
 <!-- start markdowntohtml.com -->
+<p>= 1.4.7, Dec 27 2024 =</p>
+<ul>
+<li>Resolved an issue with the Instagram widget. An Instagram Business account is required, and the app must be reauthorized to function properly.</li>
+</ul>
+
 <p>= 1.4.6, Dec 23 2024 =</p>
 <ul>
 <li>Improved compatibility with Elementor 3.26.</li>
@@ -586,8 +591,8 @@ class Admin_Page {
 					'desc_btn'   => esc_html__( 'Connect Instagram Account', 'stratum' ),
 					'desc_class' => 'large',
 					'desc_link'  => esc_url(
-						'https://api.instagram.com/oauth/authorize?client_id=910186402812397&redirect_uri=' .
-						'https://api.getmotopress.com/get_instagram_token.php&scope=user_profile,user_media&response_type=code&state=' .
+						'https://www.instagram.com/oauth/authorize?enable_fb_login=0&force_authentication=0&client_id=1815611002603068&redirect_uri=' .
+						'https://api.getmotopress.com/get_instagram_token2.php&scope=instagram_business_basic&response_type=code&state=' .
 						admin_url( 'admin.php' )
 					),
 					'type' => 'text',
@@ -606,7 +611,7 @@ class Admin_Page {
 			$settings_fields['stratum_api']['instagram_access_token']['desc_extra_btn'] = esc_html__( 'Refresh Access Token', 'stratum' );
 			$settings_fields['stratum_api']['instagram_access_token']['desc_extra_class'] = 'large';
 			$settings_fields['stratum_api']['instagram_access_token']['desc_extra_link'] = esc_url(
-				'https://api.getmotopress.com/refresh_instagram_token.php?access_token='.$instagram_access_token.'&state=' .
+				'https://api.getmotopress.com/refresh_instagram_token2.php?access_token='.$instagram_access_token.'&state=' .
 				admin_url( 'admin.php?page=stratum-settings#stratum_api' )
 			);
 
