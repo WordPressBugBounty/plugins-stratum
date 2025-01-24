@@ -870,13 +870,18 @@ class Sections {
 
 						//Outside
 
-							//horizontal
-							'{{WRAPPER}}.stratum-navigation-arrow-position-outside.stratum-swiper-direction-horizontal .stratum-swiper-button-prev, {{WRAPPER}}.stratum-navigation-arrow-position-outside.stratum-swiper-direction-horizontal .stratum-swiper-button-next' => 'width: calc( ({{arrows_spacing.SIZE}}{{arrows_spacing.UNIT}}/2) + {{SIZE}}{{UNIT}} );',
-							'{{WRAPPER}}.stratum-navigation-arrow-position-outside.stratum-swiper-direction-horizontal .elementor-widget-container > div' => 'margin-left: calc( {{arrows_offset.SIZE}}{{arrows_offset.UNIT}} + ( ({{arrows_spacing.SIZE}}{{arrows_spacing.UNIT}}/2) + {{SIZE}}{{UNIT}} ) ); margin-right: calc( {{arrows_offset.SIZE}}{{arrows_offset.UNIT}} + ( ({{arrows_spacing.SIZE}}{{arrows_spacing.UNIT}}/2) + {{SIZE}}{{UNIT}} ) );',
+						//horizontal
+						'{{WRAPPER}}.stratum-navigation-arrow-position-outside.stratum-swiper-direction-horizontal .stratum-swiper-button-prev, {{WRAPPER}}.stratum-navigation-arrow-position-outside.stratum-swiper-direction-horizontal .stratum-swiper-button-next' => 'width: calc( ({{arrows_spacing.SIZE}}{{arrows_spacing.UNIT}}/2) + {{SIZE}}{{UNIT}} );',
 
-							//vertical
-							'{{WRAPPER}}.stratum-navigation-arrow-position-outside.stratum-swiper-direction-vertical .stratum-swiper-button-prev, {{WRAPPER}}.stratum-navigation-arrow-position-outside.stratum-swiper-direction-vertical .stratum-swiper-button-next' => 'height: calc( ({{arrows_spacing.SIZE}}{{arrows_spacing.UNIT}}/2) + {{SIZE}}{{UNIT}} );',
-							'{{WRAPPER}}.stratum-navigation-arrow-position-outside.stratum-swiper-direction-vertical .elementor-widget-container > div' => 'margin-top: calc( {{arrows_offset.SIZE}}{{arrows_offset.UNIT}} + ( ({{arrows_spacing.SIZE}}{{arrows_spacing.UNIT}}/2) + {{SIZE}}{{UNIT}} ) ); margin-bottom: calc( {{arrows_offset.SIZE}}{{arrows_offset.UNIT}} + ( ({{arrows_spacing.SIZE}}{{arrows_spacing.UNIT}}/2) + {{SIZE}}{{UNIT}} ) );',
+						//fix Elementor 3.26 Optimized Markup Experiment: the inner .elementor-widget-container element was removed
+						'{{WRAPPER}}.stratum-navigation-arrow-position-outside.stratum-swiper-direction-horizontal .elementor-widget-container > div,
+						 {{WRAPPER}}.stratum-navigation-arrow-position-outside.stratum-swiper-direction-horizontal > div:not(.elementor-widget-container)' => 'margin-left: calc( {{arrows_offset.SIZE}}{{arrows_offset.UNIT}} + ( ({{arrows_spacing.SIZE}}{{arrows_spacing.UNIT}}/2) + {{SIZE}}{{UNIT}} ) ); margin-right: calc( {{arrows_offset.SIZE}}{{arrows_offset.UNIT}} + ( ({{arrows_spacing.SIZE}}{{arrows_spacing.UNIT}}/2) + {{SIZE}}{{UNIT}} ) );',
+
+						//vertical
+						'{{WRAPPER}}.stratum-navigation-arrow-position-outside.stratum-swiper-direction-vertical .stratum-swiper-button-prev, {{WRAPPER}}.stratum-navigation-arrow-position-outside.stratum-swiper-direction-vertical .stratum-swiper-button-next' => 'height: calc( ({{arrows_spacing.SIZE}}{{arrows_spacing.UNIT}}/2) + {{SIZE}}{{UNIT}} );',
+						//fix Elementor 3.26 Optimized Markup Experiment: the inner .elementor-widget-container element was removed
+						'{{WRAPPER}}.stratum-navigation-arrow-position-outside.stratum-swiper-direction-vertical .elementor-widget-container > div,
+						 {{WRAPPER}}.stratum-navigation-arrow-position-outside.stratum-swiper-direction-vertical > div:not(.elementor-widget-container)' => 'margin-top: calc( {{arrows_offset.SIZE}}{{arrows_offset.UNIT}} + ( ({{arrows_spacing.SIZE}}{{arrows_spacing.UNIT}}/2) + {{SIZE}}{{UNIT}} ) ); margin-bottom: calc( {{arrows_offset.SIZE}}{{arrows_offset.UNIT}} + ( ({{arrows_spacing.SIZE}}{{arrows_spacing.UNIT}}/2) + {{SIZE}}{{UNIT}} ) );',
 
 						//Inside
 

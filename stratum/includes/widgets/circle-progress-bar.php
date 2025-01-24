@@ -352,6 +352,11 @@ class Circle_Progress_Bar extends Stratum_Widget_Base {
     }
 
 	public function render_plain_content( $instance = [] ) {}
+
+    protected function is_dynamic_content(): bool {
+
+        return false;
+    }
 }
 
 Plugin::instance()->widgets_manager->register( new Circle_Progress_Bar() );

@@ -5,7 +5,7 @@ Tags: elementor, elementor addons, elementor plugins, elementor widgets, element
 Requires at least: 5.0
 Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 1.4.7
+Stable tag: 1.5.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -109,6 +109,11 @@ Stratum plugin is distributed under the terms of the GNU GPL.
 3. Find Stratum widgets in Elementor.
 
 == Changelog ==
+
+= 1.5.0, Jan 24 2025 =
+* Added support for the Elementor Widget Output Caching experiment.
+* Added support for the Elementor Widget DOM Optimization experiment.
+* Minor bugfixes and improvements.
 
 = 1.4.7, Dec 27 2024 =
 * Resolved an issue with the Instagram widget. An Instagram Business account is required, and the app must be reauthorized to function properly.

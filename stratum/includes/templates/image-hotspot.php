@@ -72,8 +72,8 @@ $url_placeholder = Utils::get_placeholder_image_src();
                         'tooltipTheme'     => $item[ 'tooltip_theme' ],
                         'tooltipAnimation' => $item[ 'tooltip_animation' ],
                         'tooltipTrigger'   => $item[ 'tooltip_interactivity' ],
-                        'tooltipContent'   => $item[ 'tooltip_content' ],
-                        'tooltipTitle'     => $item[ 'tooltip_title' ]
+                        'tooltipContent'   => wp_kses_post( html_entity_decode( $item[ 'tooltip_content' ] ) ),
+                        'tooltipTitle'     => wp_kses_post( html_entity_decode( $item[ 'tooltip_title' ] ) )
                     ];
 
                     $wrapper[ 'data-options' ] = json_encode( $options );

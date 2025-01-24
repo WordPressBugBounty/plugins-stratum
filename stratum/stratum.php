@@ -3,7 +3,7 @@
  * Plugin Name: Stratum - Elementor Widgets
  * Plugin URI: https://motopress.com/products/stratum/
  * Description: Advanced Elementor addon to extend page builder capabilities and add more advanced features.
- * Version: 1.4.7
+ * Version: 1.5.0
  * Author: MotoPress
  * Author URI: https://motopress.com/
  * License: GPLv2 or later

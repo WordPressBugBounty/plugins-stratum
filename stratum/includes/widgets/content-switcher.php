@@ -661,6 +661,12 @@ class Content_Switcher extends Stratum_Widget_Base {
 	protected function render() {
 		$this->render_widget( 'php' );
 	}
+
+	protected function is_dynamic_content(): bool {
+
+		return true;
+	}
+
 }
 
 Plugin::instance()->widgets_manager->register( new Content_Switcher() );

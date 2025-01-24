@@ -9,6 +9,7 @@ use \Elementor\Widget_Base;
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 abstract class Stratum_Widget_Base extends Widget_Base {
+
 	public function __construct( $data = [], $args = null ) {
         parent::__construct( $data, $args );
     }
@@ -31,4 +32,14 @@ abstract class Stratum_Widget_Base extends Widget_Base {
 			require ($file_name);
 		echo ob_get_clean(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 	}
+
+	/*
+	 * Optimized Widget DOM
+	 * https://developers.elementor.com/docs/widgets/widget-inner-wrapper/
+	 */
+	public function has_widget_inner_wrapper(): bool {
+
+		return false;
+	}
+
 }

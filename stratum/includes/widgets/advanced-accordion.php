@@ -970,6 +970,13 @@ class Advanced_Accordion extends Stratum_Widget_Base {
     }
 
 	public function render_plain_content( $instance = [] ) {}
+
+
+	protected function is_dynamic_content(): bool {
+
+		return true;
+	}
+
 }
 
 Plugin::instance()->widgets_manager->register( new Advanced_Accordion() );

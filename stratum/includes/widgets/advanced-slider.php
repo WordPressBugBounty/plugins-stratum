@@ -1322,6 +1322,15 @@ class Advanced_Slider extends Stratum_Widget_Base {
     }
 
 	public function render_plain_content( $instance = [] ) {}
+
+	/*
+	 * Widget Output Caching
+	 * https://developers.elementor.com/docs/widgets/widget-output-caching/
+	 */
+	protected function is_dynamic_content(): bool {
+
+		return false;
+	}
 }
 
 Plugin::instance()->widgets_manager->register( new Advanced_Slider() );

@@ -1628,6 +1628,15 @@ class Horizontal_Timeline extends Stratum_Widget_Base {
 
 		return $out;
 	}
+
+	/*
+	 * Widget Output Caching
+	 * https://developers.elementor.com/docs/widgets/widget-output-caching/
+	 */
+	protected function is_dynamic_content(): bool {
+
+		return false;
+	}
 }
 
 Plugin::instance()->widgets_manager->register( new Horizontal_Timeline() );

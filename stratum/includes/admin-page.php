@@ -155,6 +155,14 @@ class Admin_Page {
 			<div class="stratum-about-list">
 
 <!-- start markdowntohtml.com -->
+
+<p>= 1.5.0, Jan 24 2025 =</p>
+<ul>
+<li>Added support for the Elementor Widget Output Caching experiment.</li>
+<li>Added support for the Elementor Widget DOM Optimization experiment.</li>
+<li>Minor bugfixes and improvements.</li>
+</ul>
+
 <p>= 1.4.7, Dec 27 2024 =</p>
 <ul>
 <li>Resolved an issue with the Instagram widget. An Instagram Business account is required, and the app must be reauthorized to function properly.</li>

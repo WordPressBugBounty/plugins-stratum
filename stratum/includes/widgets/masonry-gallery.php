@@ -395,6 +395,11 @@ class Images_Masonry extends Stratum_Widget_Base {
 
 		return $image_data;
 	}
+
+	protected function is_dynamic_content(): bool {
+
+		return false;
+	}
 }
 
 Plugin::instance()->widgets_manager->register( new Images_Masonry() );

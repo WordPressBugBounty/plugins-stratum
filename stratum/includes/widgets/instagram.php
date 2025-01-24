@@ -337,6 +337,10 @@ class Instagram extends Stratum_Widget_Base {
 		);
 	}
 
+	protected function is_dynamic_content(): bool {
+
+		return true;
+	}
 }
 
 Plugin::instance()->widgets_manager->register( new Instagram() );

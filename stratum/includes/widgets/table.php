@@ -1416,6 +1416,10 @@ class Table extends Stratum_Widget_Base {
         $this->render_widget( 'php' );
 	}
 
+    protected function is_dynamic_content(): bool {
+
+        return true;
+    }
 }
 
 Plugin::instance()->widgets_manager->register( new Table() );
