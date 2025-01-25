@@ -156,6 +156,11 @@ class Admin_Page {
 
 <!-- start markdowntohtml.com -->
 
+<p>= 1.5.1, Jan 25 2025 =</p>
+<ul>
+<li>Reverted support for the Elementor Widget DOM Optimization experiment due to issues with widget styling.</li>
+</ul>
+
 <p>= 1.5.0, Jan 24 2025 =</p>
 <ul>
 <li>Added support for the Elementor Widget Output Caching experiment.</li>

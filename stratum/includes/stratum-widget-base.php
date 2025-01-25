@@ -39,7 +39,7 @@ abstract class Stratum_Widget_Base extends Widget_Base {
 	 */
 	public function has_widget_inner_wrapper(): bool {
 
-		return false;
+		return true;
 	}
 
 }

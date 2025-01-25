@@ -798,7 +798,7 @@ class Advanced_Google_Map extends Stratum_Widget_Base {
 
 	protected function is_dynamic_content(): bool {
 
-		return false;
+		return true;
 	}
 }
 
