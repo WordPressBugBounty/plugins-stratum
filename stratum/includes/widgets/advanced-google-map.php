@@ -117,7 +117,7 @@ class Advanced_Google_Map extends Stratum_Widget_Base {
 				'label_block' => false,
 				'render_type' => 'none',
 				'frontend_available' => true,
-				'default' => esc_html__( '48.208174', 'stratum' )
+				'default' => '48.208174'
 			]
 		);
 
@@ -129,7 +129,7 @@ class Advanced_Google_Map extends Stratum_Widget_Base {
 				'label_block' => false,
 				'render_type' => 'none',
 				'frontend_available' => true,
-				'default' => esc_html__( '16.373819', 'stratum' )
+				'default' => '16.373819'
 			]
 		);
 
@@ -245,7 +245,7 @@ class Advanced_Google_Map extends Stratum_Widget_Base {
 			'marker_content',
 			[
 				'label' => esc_html__( 'Content', 'stratum' ),
-				'type' => Controls_Manager::TEXTAREA,
+				'type' => Controls_Manager::WYSIWYG,
 				'label_block' => true,
 				'default'     => esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.', 'stratum' ),
 				'placeholder' => esc_html__( 'Type your content here...', 'stratum' ),
@@ -413,7 +413,7 @@ class Advanced_Google_Map extends Stratum_Widget_Base {
 			'marker_content',
 			[
 				'label' => esc_html__( 'Content', 'stratum' ),
-				'type'  => Controls_Manager::TEXTAREA,
+				'type'  => Controls_Manager::WYSIWYG,
 				'label_block' => true,
 				'default'     => esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.', 'stratum' ),
 				'placeholder' => esc_html__( 'Type your content here...', 'stratum' )
@@ -730,7 +730,7 @@ class Advanced_Google_Map extends Stratum_Widget_Base {
 	public function get_single_marker_option($marker) {
 		$single_options = [
 			'markerTitle'   => $marker[ 'marker_title' ],
-			'markerContent' => $marker[ 'marker_content' ],
+			'markerContent' => wp_kses_post( $marker[ 'marker_content' ] ),
 			'popupMaxWidth' => $marker[ 'popup_max_width' ],
 			'isOpenPopup' => !empty( $marker[ 'is_open_popup' ] ) ? true : false
 		];

@@ -195,7 +195,7 @@ class Image_Accordion extends Stratum_Widget_Base {
 			'item_description',
 			[
 				'label' => esc_html__( 'Description', 'stratum' ),
-				'type'  => Controls_Manager::TEXTAREA,
+				'type'  => Controls_Manager::WYSIWYG,
 				'placeholder' => esc_html__( 'Type your content here...', 'stratum' ),
 				'dynamic'   => [ 'active' => true ],
 				'condition' => [

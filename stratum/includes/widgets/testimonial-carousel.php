@@ -72,7 +72,7 @@ class Testimonial_Carousel extends Stratum_Widget_Base {
 			'content',
 			[
 				'label' => esc_html__( 'Content', 'stratum' ),
-				'type'  => Controls_Manager::TEXTAREA,
+				'type'  => Controls_Manager::WYSIWYG,
 				'dynamic' => [
 					'active' => true,
 				],

@@ -89,7 +89,7 @@ class Price_Menu extends Stratum_Widget_Base {
 				'menu_description',
 				[
 					'label'       => esc_html__( 'Description', 'stratum' ),
-					'type'        => Controls_Manager::TEXTAREA,
+					'type'        => Controls_Manager::WYSIWYG,
 					'dynamic'     => [
 						'active'  => true,
 					],

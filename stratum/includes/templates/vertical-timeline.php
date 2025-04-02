@@ -54,6 +54,11 @@ $inner_classes  = $this->get_render_attribute_string( 'inner' );
                             /* #endregion */
 							?>
                             <div class="<?php echo esc_attr( $class . '-item__card-content' );?>">
+                            <div class="<?php echo esc_attr( $class . '-item__meta-copy' ); ?>">
+                                <div class="<?php echo esc_attr( $class . '-item__meta-content' ); ?>">
+                                    <?php echo esc_html( $item[ 'item_meta' ] ); ?>
+                                </div>
+                            </div>
 							<?php
 								if ( ! empty( $item[ 'item_link' ][ 'url' ] ) ) {
 

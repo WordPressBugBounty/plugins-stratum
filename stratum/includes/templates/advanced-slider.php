@@ -76,7 +76,7 @@ $slider_options = stratum_generate_swiper_options($settings);
 							if ( !empty($item['description']) ) {
 								?>
 								<<?php echo esc_html($description_typography_html_tag); ?> class="<?php echo esc_attr( $widget_class . '__description' ); ?>">
-									<?php echo esc_html($item['description']); ?>
+									<?php echo wp_kses_post($item['description']); ?>
 								</<?php echo esc_html($description_typography_html_tag); ?>>
 							<?php
 							}

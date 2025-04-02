@@ -1,36 +1,41 @@
-# Copyright (C) 2024 MotoPress
+# Copyright (C) 2025 MotoPress
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Stratum - Elementor Widgets 1.4.3\n"
+"Project-Id-Version: Stratum - Elementor Widgets 1.6.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/stratum\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-07-01T17:59:29+00:00\n"
+"POT-Creation-Date: 2025-04-01T19:22:32+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.6.0\n"
+"X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: stratum\n"
 
 #. Plugin Name of the plugin
+#: stratum.php
 msgid "Stratum - Elementor Widgets"
 msgstr ""
 
 #. Plugin URI of the plugin
+#: stratum.php
 msgid "https://motopress.com/products/stratum/"
 msgstr ""
 
 #. Description of the plugin
+#: stratum.php
 msgid "Advanced Elementor addon to extend page builder capabilities and add more advanced features."
 msgstr ""
 
 #. Author of the plugin
+#: stratum.php
 msgid "MotoPress"
 msgstr ""
 
 #. Author URI of the plugin
+#: stratum.php
 msgid "https://motopress.com/"
 msgstr ""
 
@@ -68,16 +73,16 @@ msgstr ""
 msgid "Changelog"
 msgstr ""
 
-#: includes/admin-page.php:312
+#: includes/admin-page.php:353
 msgid "Elements"
 msgstr ""
 
-#: includes/admin-page.php:318
-#: includes/widgets/advanced-slider.php:440
+#: includes/admin-page.php:359
+#: includes/widgets/advanced-slider.php:441
 #: includes/widgets/banner.php:164
-#: includes/widgets/circle-progress-bar.php:160
+#: includes/widgets/circle-progress-bar.php:161
 #: includes/widgets/content-switcher.php:55
-#: includes/widgets/countdown.php:235
+#: includes/widgets/countdown.php:234
 #: includes/widgets/counter.php:148
 #: includes/widgets/instagram.php:108
 #: includes/widgets/masonry-gallery.php:80
@@ -89,284 +94,284 @@ msgstr ""
 msgid "Style"
 msgstr ""
 
-#: includes/admin-page.php:323
+#: includes/admin-page.php:364
 msgid "API"
 msgstr ""
 
-#: includes/admin-page.php:346
+#: includes/admin-page.php:387
 #: includes/widgets/instagram.php:26
 msgid "Instagram"
 msgstr ""
 
-#: includes/admin-page.php:347
+#: includes/admin-page.php:388
 msgid "Real-life Instagram feed in your WordPress."
 msgstr ""
 
-#: includes/admin-page.php:354
+#: includes/admin-page.php:395
 #: includes/widgets/banner.php:20
 msgid "Banner"
 msgstr ""
 
-#: includes/admin-page.php:355
+#: includes/admin-page.php:396
 msgid "Creative animated banners for promos and announcements."
 msgstr ""
 
-#: includes/admin-page.php:362
+#: includes/admin-page.php:403
 #: includes/widgets/counter.php:28
 msgid "Counter"
 msgstr ""
 
-#: includes/admin-page.php:363
+#: includes/admin-page.php:404
 msgid "Animated counters to visualize data."
 msgstr ""
 
-#: includes/admin-page.php:370
+#: includes/admin-page.php:411
 #: includes/widgets/price-menu.php:27
 msgid "Price Menu"
 msgstr ""
 
-#: includes/admin-page.php:371
+#: includes/admin-page.php:412
 msgid "Food menus or other listings with prices."
 msgstr ""
 
-#: includes/admin-page.php:378
+#: includes/admin-page.php:419
 #: includes/widgets/price-list.php:25
 msgid "Price List"
 msgstr ""
 
-#: includes/admin-page.php:379
+#: includes/admin-page.php:420
 msgid "Price variables or categorized lists of individual menu items."
 msgstr ""
 
-#: includes/admin-page.php:386
+#: includes/admin-page.php:427
 #: includes/widgets/price-table.php:26
 msgid "Price Table"
 msgstr ""
 
-#: includes/admin-page.php:387
+#: includes/admin-page.php:428
 msgid "Pricing and comparison tables."
 msgstr ""
 
-#: includes/admin-page.php:394
+#: includes/admin-page.php:435
 #: includes/widgets/table.php:32
 #: includes/widgets/table.php:121
 msgid "Table"
 msgstr ""
 
-#: includes/admin-page.php:395
+#: includes/admin-page.php:436
 msgid "Build responsive tables and customize their content and styling."
 msgstr ""
 
-#: includes/admin-page.php:402
+#: includes/admin-page.php:443
 #: includes/widgets/content-switcher.php:26
 msgid "Content Switcher"
 msgstr ""
 
-#: includes/admin-page.php:403
+#: includes/admin-page.php:444
 msgid "Add a toggle or structure your content into switchable tabs - perfect for pricing plans and data organization."
 msgstr ""
 
-#: includes/admin-page.php:410
+#: includes/admin-page.php:451
 #: includes/widgets/image-hotspot.php:25
 msgid "Image Hotspot"
 msgstr ""
 
-#: includes/admin-page.php:411
+#: includes/admin-page.php:452
 msgid "Animated pointers with tooltips to place over images."
 msgstr ""
 
-#: includes/admin-page.php:418
+#: includes/admin-page.php:459
 #: includes/widgets/circle-progress-bar.php:24
 msgid "Circle Progress Bar"
 msgstr ""
 
-#: includes/admin-page.php:419
+#: includes/admin-page.php:460
 msgid "A circle-shaped bar with an animated activity progress indicator."
 msgstr ""
 
-#: includes/admin-page.php:426
+#: includes/admin-page.php:467
 #: includes/widgets/masonry-gallery.php:26
 msgid "Masonry Gallery"
 msgstr ""
 
-#: includes/admin-page.php:427
+#: includes/admin-page.php:468
 msgid "A masonry-styled responsive image gallery."
 msgstr ""
 
-#: includes/admin-page.php:434
+#: includes/admin-page.php:475
 #: includes/widgets/advanced-slider.php:28
 msgid "Advanced Slider"
 msgstr ""
 
-#: includes/admin-page.php:435
+#: includes/admin-page.php:476
 msgid "A fully customizable slider, including the number of columns, horizontal and vertical scrolling, navigation, etc."
 msgstr ""
 
-#: includes/admin-page.php:442
+#: includes/admin-page.php:483
 #: includes/widgets/advanced-posts.php:35
 msgid "Advanced Posts"
 msgstr ""
 
-#: includes/admin-page.php:443
+#: includes/admin-page.php:484
 msgid "Showcase your automatically sourced posts and pages in different grid or list layouts."
 msgstr ""
 
-#: includes/admin-page.php:450
+#: includes/admin-page.php:491
 #: includes/widgets/advanced-accordion.php:30
 msgid "Advanced Accordion"
 msgstr ""
 
-#: includes/admin-page.php:451
+#: includes/admin-page.php:492
 msgid "Horizontal accordion tabs with support for custom Library templates."
 msgstr ""
 
-#: includes/admin-page.php:458
+#: includes/admin-page.php:499
 #: includes/widgets/advanced-tabs.php:30
 msgid "Advanced Tabs"
 msgstr ""
 
-#: includes/admin-page.php:459
+#: includes/admin-page.php:500
 msgid "Fully customizable horizontal or vertical-oriented tabs with support for custom Library templates."
 msgstr ""
 
-#: includes/admin-page.php:466
-#: includes/widgets/countdown.php:61
+#: includes/admin-page.php:507
+#: includes/widgets/countdown.php:60
 msgid "Countdown"
 msgstr ""
 
-#: includes/admin-page.php:467
+#: includes/admin-page.php:508
 msgid "Dynamic countdown timer with deeply customizable numeric values and time labels."
 msgstr ""
 
-#: includes/admin-page.php:474
-#: includes/widgets/testimonial-carousel.php:30
+#: includes/admin-page.php:515
+#: includes/widgets/testimonial-carousel.php:29
 msgid "Testimonial Carousel"
 msgstr ""
 
-#: includes/admin-page.php:475
+#: includes/admin-page.php:516
 msgid "A ready-made template for admin-added testimonials."
 msgstr ""
 
-#: includes/admin-page.php:482
+#: includes/admin-page.php:523
 #: includes/widgets/advanced-google-map.php:25
 msgid "Advanced Google Map"
 msgstr ""
 
-#: includes/admin-page.php:483
+#: includes/admin-page.php:524
 msgid "Google Maps with customizable location markets and map styles."
 msgstr ""
 
-#: includes/admin-page.php:490
+#: includes/admin-page.php:531
 #: includes/widgets/flip-box.php:28
 msgid "Flip Box"
 msgstr ""
 
-#: includes/admin-page.php:491
+#: includes/admin-page.php:532
 msgid "Flip Box with animation that is triggered on hover and fully customizable front & back sections."
 msgstr ""
 
-#: includes/admin-page.php:498
+#: includes/admin-page.php:539
 #: includes/widgets/image-accordion.php:30
 msgid "Image Accordion"
 msgstr ""
 
-#: includes/admin-page.php:499
+#: includes/admin-page.php:540
 msgid "Highlight your images with amazing hover and click effects using Image Accordion"
 msgstr ""
 
-#: includes/admin-page.php:506
+#: includes/admin-page.php:547
 #: includes/widgets/vertical-timeline.php:32
 msgid "Vertical Timeline"
 msgstr ""
 
-#: includes/admin-page.php:507
+#: includes/admin-page.php:548
 msgid "Display events on your pages using Vertical Timeline widget, that allows adding content, including icons, imagery, and descriptions"
 msgstr ""
 
-#: includes/admin-page.php:514
+#: includes/admin-page.php:555
 #: includes/widgets/horizontal-timeline.php:32
 msgid "Horizontal Timeline"
 msgstr ""
 
-#: includes/admin-page.php:515
+#: includes/admin-page.php:556
 msgid "Let the visitors know about the events and projects on your website using the Horizontal Timeline widget"
 msgstr ""
 
-#: includes/admin-page.php:522
+#: includes/admin-page.php:563
 #: includes/widgets/lottie-animations.php:32
 msgid "Lottie Animations"
 msgstr ""
 
-#: includes/admin-page.php:523
+#: includes/admin-page.php:564
 msgid "Lottie Animations widget give you the ability to easily add Lottie Animations to your Elementor pages with no need to add custom code"
 msgstr ""
 
-#: includes/admin-page.php:532
+#: includes/admin-page.php:573
 msgid "Primary color"
 msgstr ""
 
-#: includes/admin-page.php:533
+#: includes/admin-page.php:574
 msgid "Select your primary color. Default: #3878ff"
 msgstr ""
 
-#: includes/admin-page.php:539
+#: includes/admin-page.php:580
 msgid "Secondary color (Hover)"
 msgstr ""
 
-#: includes/admin-page.php:540
+#: includes/admin-page.php:581
 msgid "Select your secondary color. Default: #565656"
 msgstr ""
 
-#: includes/admin-page.php:546
+#: includes/admin-page.php:587
 msgid "Background color"
 msgstr ""
 
-#: includes/admin-page.php:547
+#: includes/admin-page.php:588
 msgid "Select your secondary color. Default: #71d7f7"
 msgstr ""
 
-#: includes/admin-page.php:553
+#: includes/admin-page.php:594
 msgid "Background color (Active)"
 msgstr ""
 
-#: includes/admin-page.php:554
+#: includes/admin-page.php:595
 msgid "Select your secondary color. Default: #0097c6"
 msgstr ""
 
-#: includes/admin-page.php:560
+#: includes/admin-page.php:601
 msgid "Background color (Hover)"
 msgstr ""
 
-#: includes/admin-page.php:561
+#: includes/admin-page.php:602
 msgid "Select your secondary color. Default: #008fbc"
 msgstr ""
 
-#: includes/admin-page.php:570
+#: includes/admin-page.php:611
 msgid "Instagram Access Token"
 msgstr ""
 
-#: includes/admin-page.php:571
+#: includes/admin-page.php:612
 msgid "Connect Instagram Account"
 msgstr ""
 
-#: includes/admin-page.php:583
+#: includes/admin-page.php:624
 msgid "Google Maps API Key"
 msgstr ""
 
-#: includes/admin-page.php:584
+#: includes/admin-page.php:625
 msgid "Get the API key"
 msgstr ""
 
-#: includes/admin-page.php:591
+#: includes/admin-page.php:632
 msgid "Refresh Access Token"
 msgstr ""
 
 #. translators: %s is username or user id
-#: includes/admin-page.php:621
+#: includes/admin-page.php:662
 msgid "Account: %s"
 msgstr ""
 
-#: includes/admin-page.php:640
+#: includes/admin-page.php:681
 msgid "Plugin settings updated successfully"
 msgstr ""
 
@@ -561,7 +566,7 @@ msgid "Full"
 msgstr ""
 
 #: includes/stratum-sections.php:96
-#: includes/widgets/advanced-posts.php:108
+#: includes/widgets/advanced-posts.php:109
 msgid "Carousel"
 msgstr ""
 
@@ -572,7 +577,7 @@ msgstr ""
 #: includes/stratum-sections.php:120
 #: includes/stratum-sections.php:288
 #: includes/stratum-sections.php:556
-#: includes/widgets/advanced-posts.php:325
+#: includes/widgets/advanced-posts.php:326
 msgid "Navigation"
 msgstr ""
 
@@ -594,11 +599,11 @@ msgstr ""
 
 #: includes/stratum-sections.php:127
 #: includes/stratum-sections.php:563
-#: includes/widgets/advanced-posts.php:690
-#: includes/widgets/advanced-posts.php:708
-#: includes/widgets/advanced-posts.php:1288
-#: includes/widgets/advanced-slider.php:618
-#: includes/widgets/advanced-slider.php:636
+#: includes/widgets/advanced-posts.php:691
+#: includes/widgets/advanced-posts.php:709
+#: includes/widgets/advanced-posts.php:1291
+#: includes/widgets/advanced-slider.php:619
+#: includes/widgets/advanced-slider.php:637
 #: includes/widgets/advanced-tabs.php:856
 #: includes/widgets/banner.php:203
 #: includes/widgets/banner.php:221
@@ -626,8 +631,8 @@ msgstr ""
 #: includes/stratum-sections.php:167
 #: includes/stratum-sections.php:636
 #: includes/widgets/circle-progress-bar.php:115
-#: includes/widgets/circle-progress-bar.php:187
-#: includes/widgets/circle-progress-bar.php:208
+#: includes/widgets/circle-progress-bar.php:188
+#: includes/widgets/circle-progress-bar.php:209
 #: includes/widgets/instagram.php:163
 #: includes/widgets/masonry-gallery.php:148
 msgid "In Pixels (px)"
@@ -712,9 +717,9 @@ msgstr ""
 #: includes/stratum-sections.php:356
 #: includes/stratum-sections.php:418
 #: includes/stratum-sections.php:854
-#: includes/stratum-sections.php:993
-#: includes/stratum-sections.php:1106
-#: includes/stratum-sections.php:1177
+#: includes/stratum-sections.php:998
+#: includes/stratum-sections.php:1111
+#: includes/stratum-sections.php:1182
 #: includes/widgets/flip-box.php:732
 #: includes/widgets/horizontal-timeline.php:607
 #: includes/widgets/image-accordion.php:88
@@ -726,21 +731,21 @@ msgstr ""
 
 #: includes/stratum-sections.php:376
 #: includes/stratum-sections.php:438
-#: includes/stratum-sections.php:948
-#: includes/stratum-sections.php:1048
-#: includes/stratum-sections.php:1077
-#: includes/stratum-sections.php:1133
-#: includes/stratum-sections.php:1206
-#: includes/widgets/advanced-posts.php:1655
-#: includes/widgets/advanced-posts.php:1678
-#: includes/widgets/advanced-posts.php:1779
-#: includes/widgets/advanced-posts.php:1814
-#: includes/widgets/advanced-posts.php:1921
-#: includes/widgets/advanced-posts.php:1943
-#: includes/widgets/advanced-slider.php:865
-#: includes/widgets/advanced-slider.php:887
-#: includes/widgets/advanced-slider.php:980
-#: includes/widgets/advanced-slider.php:1095
+#: includes/stratum-sections.php:953
+#: includes/stratum-sections.php:1053
+#: includes/stratum-sections.php:1082
+#: includes/stratum-sections.php:1138
+#: includes/stratum-sections.php:1211
+#: includes/widgets/advanced-posts.php:1658
+#: includes/widgets/advanced-posts.php:1681
+#: includes/widgets/advanced-posts.php:1782
+#: includes/widgets/advanced-posts.php:1817
+#: includes/widgets/advanced-posts.php:1924
+#: includes/widgets/advanced-posts.php:1946
+#: includes/widgets/advanced-slider.php:866
+#: includes/widgets/advanced-slider.php:888
+#: includes/widgets/advanced-slider.php:981
+#: includes/widgets/advanced-slider.php:1096
 #: includes/widgets/horizontal-timeline.php:772
 #: includes/widgets/horizontal-timeline.php:792
 #: includes/widgets/horizontal-timeline.php:812
@@ -775,7 +780,7 @@ msgid "Carousel Settings"
 msgstr ""
 
 #: includes/stratum-sections.php:475
-#: includes/widgets/advanced-posts.php:116
+#: includes/widgets/advanced-posts.php:117
 #: includes/widgets/horizontal-timeline.php:307
 #: includes/widgets/instagram.php:147
 #: includes/widgets/masonry-gallery.php:129
@@ -821,32 +826,32 @@ msgid "Arrows and Pagination"
 msgstr ""
 
 #: includes/stratum-sections.php:562
-#: includes/widgets/advanced-posts.php:306
+#: includes/widgets/advanced-posts.php:307
 msgid "Pagination"
 msgstr ""
 
 #: includes/stratum-sections.php:573
-#: includes/widgets/advanced-posts.php:321
+#: includes/widgets/advanced-posts.php:322
 msgid "Pagination style"
 msgstr ""
 
 #: includes/stratum-sections.php:577
-#: includes/stratum-sections.php:965
+#: includes/stratum-sections.php:970
 msgid "Bullets"
 msgstr ""
 
 #: includes/stratum-sections.php:578
-#: includes/stratum-sections.php:1064
+#: includes/stratum-sections.php:1069
 msgid "Numbers"
 msgstr ""
 
 #: includes/stratum-sections.php:579
-#: includes/stratum-sections.php:1093
+#: includes/stratum-sections.php:1098
 msgid "Progress bar"
 msgstr ""
 
 #: includes/stratum-sections.php:580
-#: includes/stratum-sections.php:1149
+#: includes/stratum-sections.php:1154
 #: includes/widgets/horizontal-timeline.php:1452
 msgid "Scrollbar"
 msgstr ""
@@ -885,7 +890,7 @@ msgstr ""
 #: includes/widgets/advanced-tabs.php:858
 #: includes/widgets/content-switcher.php:652
 #: includes/widgets/flip-box.php:77
-#: includes/widgets/image-hotspot.php:280
+#: includes/widgets/image-hotspot.php:249
 msgid "Fade"
 msgstr ""
 
@@ -917,26 +922,26 @@ msgstr ""
 msgid "Navigation style"
 msgstr ""
 
-#: includes/stratum-sections.php:902
-#: includes/stratum-sections.php:1019
+#: includes/stratum-sections.php:907
+#: includes/stratum-sections.php:1024
 #: includes/widgets/advanced-accordion.php:428
 #: includes/widgets/advanced-accordion.php:638
-#: includes/widgets/advanced-posts.php:1613
-#: includes/widgets/advanced-posts.php:1742
-#: includes/widgets/advanced-posts.php:1884
-#: includes/widgets/advanced-posts.php:2000
-#: includes/widgets/advanced-posts.php:2247
-#: includes/widgets/advanced-posts.php:2458
-#: includes/widgets/advanced-slider.php:826
-#: includes/widgets/advanced-slider.php:941
-#: includes/widgets/advanced-slider.php:1056
-#: includes/widgets/advanced-slider.php:1171
+#: includes/widgets/advanced-posts.php:1616
+#: includes/widgets/advanced-posts.php:1745
+#: includes/widgets/advanced-posts.php:1887
+#: includes/widgets/advanced-posts.php:2003
+#: includes/widgets/advanced-posts.php:2250
+#: includes/widgets/advanced-posts.php:2461
+#: includes/widgets/advanced-slider.php:827
+#: includes/widgets/advanced-slider.php:942
+#: includes/widgets/advanced-slider.php:1057
+#: includes/widgets/advanced-slider.php:1172
 #: includes/widgets/advanced-tabs.php:751
 #: includes/widgets/flip-box.php:550
 #: includes/widgets/flip-box.php:712
 #: includes/widgets/flip-box.php:824
-#: includes/widgets/flip-box.php:1011
-#: includes/widgets/flip-box.php:1097
+#: includes/widgets/flip-box.php:1015
+#: includes/widgets/flip-box.php:1105
 #: includes/widgets/horizontal-timeline.php:446
 #: includes/widgets/horizontal-timeline.php:1021
 #: includes/widgets/instagram.php:162
@@ -947,17 +952,17 @@ msgstr ""
 msgid "Spacing"
 msgstr ""
 
-#: includes/stratum-sections.php:925
+#: includes/stratum-sections.php:930
 #: includes/widgets/horizontal-timeline.php:627
 #: includes/widgets/horizontal-timeline.php:1268
 msgid "Offset"
 msgstr ""
 
-#: includes/stratum-sections.php:978
+#: includes/stratum-sections.php:983
 msgid "Square bullets"
 msgstr ""
 
-#: includes/stratum-sections.php:1162
+#: includes/stratum-sections.php:1167
 msgid "Square Scrollbar"
 msgstr ""
 
@@ -983,7 +988,7 @@ msgstr ""
 msgid "Invalid date."
 msgstr ""
 
-#: includes/templates/table.php:168
+#: includes/templates/table.php:165
 msgid "Template is not found"
 msgstr ""
 
@@ -1002,8 +1007,8 @@ msgid "Stratum Widgets"
 msgstr ""
 
 #: includes/widgets/advanced-accordion.php:75
-#: includes/widgets/advanced-posts.php:94
-#: includes/widgets/advanced-slider.php:69
+#: includes/widgets/advanced-posts.php:95
+#: includes/widgets/advanced-slider.php:70
 #: includes/widgets/advanced-tabs.php:75
 #: includes/widgets/circle-progress-bar.php:51
 #: includes/widgets/horizontal-timeline.php:374
@@ -1030,42 +1035,42 @@ msgstr ""
 
 #: includes/widgets/advanced-accordion.php:109
 #: includes/widgets/advanced-tabs.php:98
-#: includes/widgets/image-hotspot.php:293
+#: includes/widgets/image-hotspot.php:262
 msgid "Interactivity"
 msgstr ""
 
 #: includes/widgets/advanced-accordion.php:113
 #: includes/widgets/advanced-tabs.php:102
-#: includes/widgets/image-hotspot.php:298
+#: includes/widgets/image-hotspot.php:267
 msgid "Click"
 msgstr ""
 
 #: includes/widgets/advanced-accordion.php:114
 #: includes/widgets/advanced-accordion.php:517
 #: includes/widgets/advanced-accordion.php:790
-#: includes/widgets/advanced-posts.php:836
-#: includes/widgets/advanced-posts.php:1172
-#: includes/widgets/advanced-posts.php:1504
-#: includes/widgets/advanced-posts.php:1671
-#: includes/widgets/advanced-posts.php:1807
-#: includes/widgets/advanced-posts.php:1936
-#: includes/widgets/advanced-posts.php:2107
-#: includes/widgets/advanced-posts.php:2374
-#: includes/widgets/advanced-slider.php:377
-#: includes/widgets/advanced-slider.php:763
-#: includes/widgets/advanced-slider.php:880
-#: includes/widgets/advanced-slider.php:995
-#: includes/widgets/advanced-slider.php:1110
-#: includes/widgets/advanced-slider.php:1278
+#: includes/widgets/advanced-posts.php:837
+#: includes/widgets/advanced-posts.php:1175
+#: includes/widgets/advanced-posts.php:1507
+#: includes/widgets/advanced-posts.php:1674
+#: includes/widgets/advanced-posts.php:1810
+#: includes/widgets/advanced-posts.php:1939
+#: includes/widgets/advanced-posts.php:2110
+#: includes/widgets/advanced-posts.php:2377
+#: includes/widgets/advanced-slider.php:378
+#: includes/widgets/advanced-slider.php:764
+#: includes/widgets/advanced-slider.php:881
+#: includes/widgets/advanced-slider.php:996
+#: includes/widgets/advanced-slider.php:1111
+#: includes/widgets/advanced-slider.php:1279
 #: includes/widgets/advanced-tabs.php:103
 #: includes/widgets/advanced-tabs.php:635
 #: includes/widgets/advanced-tabs.php:819
 #: includes/widgets/banner.php:471
-#: includes/widgets/circle-progress-bar.php:290
+#: includes/widgets/circle-progress-bar.php:293
 #: includes/widgets/content-switcher.php:414
-#: includes/widgets/countdown.php:540
+#: includes/widgets/countdown.php:539
 #: includes/widgets/counter.php:301
-#: includes/widgets/flip-box.php:1191
+#: includes/widgets/flip-box.php:1201
 #: includes/widgets/horizontal-timeline.php:499
 #: includes/widgets/horizontal-timeline.php:785
 #: includes/widgets/horizontal-timeline.php:878
@@ -1073,7 +1078,7 @@ msgstr ""
 #: includes/widgets/horizontal-timeline.php:1348
 #: includes/widgets/image-accordion.php:555
 #: includes/widgets/image-accordion.php:895
-#: includes/widgets/image-hotspot.php:297
+#: includes/widgets/image-hotspot.php:266
 #: includes/widgets/instagram.php:215
 #: includes/widgets/lottie-animations.php:344
 #: includes/widgets/masonry-gallery.php:237
@@ -1092,24 +1097,24 @@ msgstr ""
 #: includes/widgets/advanced-accordion.php:124
 #: includes/widgets/advanced-google-map.php:158
 #: includes/widgets/advanced-google-map.php:384
-#: includes/widgets/advanced-posts.php:182
-#: includes/widgets/advanced-posts.php:400
-#: includes/widgets/advanced-posts.php:1559
-#: includes/widgets/advanced-slider.php:89
-#: includes/widgets/advanced-slider.php:91
-#: includes/widgets/advanced-slider.php:906
+#: includes/widgets/advanced-posts.php:183
+#: includes/widgets/advanced-posts.php:401
+#: includes/widgets/advanced-posts.php:1562
+#: includes/widgets/advanced-slider.php:90
+#: includes/widgets/advanced-slider.php:92
+#: includes/widgets/advanced-slider.php:907
 #: includes/widgets/advanced-tabs.php:113
 #: includes/widgets/advanced-tabs.php:116
 #: includes/widgets/banner.php:104
 #: includes/widgets/banner.php:106
 #: includes/widgets/content-switcher.php:84
 #: includes/widgets/flip-box.php:813
-#: includes/widgets/flip-box.php:1000
+#: includes/widgets/flip-box.php:1004
 #: includes/widgets/horizontal-timeline.php:108
 #: includes/widgets/horizontal-timeline.php:734
 #: includes/widgets/image-accordion.php:184
 #: includes/widgets/image-accordion.php:713
-#: includes/widgets/image-hotspot.php:176
+#: includes/widgets/image-hotspot.php:278
 #: includes/widgets/price-list.php:84
 #: includes/widgets/price-list.php:90
 #: includes/widgets/price-list.php:91
@@ -1129,35 +1134,35 @@ msgid "Title"
 msgstr ""
 
 #: includes/widgets/advanced-accordion.php:127
-#: includes/widgets/image-hotspot.php:178
+#: includes/widgets/image-hotspot.php:280
 msgid "Lorem ipsum dolor sit amet."
 msgstr ""
 
 #: includes/widgets/advanced-accordion.php:137
 #: includes/widgets/advanced-accordion.php:451
 #: includes/widgets/advanced-accordion.php:696
-#: includes/widgets/advanced-posts.php:795
-#: includes/widgets/advanced-posts.php:1149
-#: includes/widgets/advanced-posts.php:1432
-#: includes/widgets/advanced-posts.php:1648
-#: includes/widgets/advanced-posts.php:1772
-#: includes/widgets/advanced-posts.php:1914
-#: includes/widgets/advanced-posts.php:2072
-#: includes/widgets/advanced-posts.php:2333
-#: includes/widgets/advanced-slider.php:345
-#: includes/widgets/advanced-slider.php:722
-#: includes/widgets/advanced-slider.php:858
-#: includes/widgets/advanced-slider.php:973
-#: includes/widgets/advanced-slider.php:1088
-#: includes/widgets/advanced-slider.php:1243
+#: includes/widgets/advanced-posts.php:796
+#: includes/widgets/advanced-posts.php:1152
+#: includes/widgets/advanced-posts.php:1435
+#: includes/widgets/advanced-posts.php:1651
+#: includes/widgets/advanced-posts.php:1775
+#: includes/widgets/advanced-posts.php:1917
+#: includes/widgets/advanced-posts.php:2075
+#: includes/widgets/advanced-posts.php:2336
+#: includes/widgets/advanced-slider.php:346
+#: includes/widgets/advanced-slider.php:723
+#: includes/widgets/advanced-slider.php:859
+#: includes/widgets/advanced-slider.php:974
+#: includes/widgets/advanced-slider.php:1089
+#: includes/widgets/advanced-slider.php:1244
 #: includes/widgets/advanced-tabs.php:565
 #: includes/widgets/advanced-tabs.php:777
 #: includes/widgets/banner.php:402
-#: includes/widgets/circle-progress-bar.php:240
+#: includes/widgets/circle-progress-bar.php:241
 #: includes/widgets/content-switcher.php:375
-#: includes/widgets/countdown.php:498
+#: includes/widgets/countdown.php:497
 #: includes/widgets/counter.php:259
-#: includes/widgets/flip-box.php:1145
+#: includes/widgets/flip-box.php:1155
 #: includes/widgets/horizontal-timeline.php:467
 #: includes/widgets/horizontal-timeline.php:765
 #: includes/widgets/horizontal-timeline.php:858
@@ -1184,7 +1189,7 @@ msgstr ""
 #: includes/widgets/advanced-accordion.php:161
 #: includes/widgets/advanced-accordion.php:470
 #: includes/widgets/advanced-accordion.php:503
-#: includes/widgets/advanced-posts.php:2158
+#: includes/widgets/advanced-posts.php:2161
 #: includes/widgets/advanced-tabs.php:124
 #: includes/widgets/flip-box.php:168
 #: includes/widgets/flip-box.php:187
@@ -1194,6 +1199,7 @@ msgstr ""
 #: includes/widgets/image-accordion.php:159
 #: includes/widgets/image-accordion.php:171
 #: includes/widgets/image-accordion.php:586
+#: includes/widgets/image-hotspot.php:95
 #: includes/widgets/image-hotspot.php:100
 #: includes/widgets/table.php:140
 #: includes/widgets/table.php:154
@@ -1288,7 +1294,7 @@ msgstr ""
 #: includes/widgets/advanced-accordion.php:263
 #: includes/widgets/advanced-google-map.php:250
 #: includes/widgets/advanced-google-map.php:418
-#: includes/widgets/advanced-slider.php:101
+#: includes/widgets/advanced-slider.php:102
 #: includes/widgets/advanced-tabs.php:152
 #: includes/widgets/banner.php:116
 #: includes/widgets/flip-box.php:281
@@ -1301,7 +1307,7 @@ msgstr ""
 #: includes/widgets/horizontal-timeline.php:251
 #: includes/widgets/horizontal-timeline.php:256
 #: includes/widgets/horizontal-timeline.php:257
-#: includes/widgets/image-hotspot.php:195
+#: includes/widgets/image-hotspot.php:297
 #: includes/widgets/testimonial-carousel.php:142
 #: includes/widgets/testimonial-carousel.php:147
 #: includes/widgets/testimonial-carousel.php:152
@@ -1341,9 +1347,9 @@ msgstr ""
 #: includes/widgets/advanced-accordion.php:342
 #: includes/widgets/advanced-accordion.php:659
 #: includes/widgets/advanced-accordion.php:930
-#: includes/widgets/advanced-posts.php:2029
-#: includes/widgets/advanced-posts.php:2279
-#: includes/widgets/advanced-slider.php:1200
+#: includes/widgets/advanced-posts.php:2032
+#: includes/widgets/advanced-posts.php:2282
+#: includes/widgets/advanced-slider.php:1201
 #: includes/widgets/advanced-tabs.php:432
 #: includes/widgets/advanced-tabs.php:529
 #: includes/widgets/advanced-tabs.php:955
@@ -1365,19 +1371,19 @@ msgstr ""
 #: includes/widgets/advanced-accordion.php:351
 #: includes/widgets/advanced-accordion.php:669
 #: includes/widgets/advanced-accordion.php:939
-#: includes/widgets/advanced-posts.php:2037
-#: includes/widgets/advanced-posts.php:2290
-#: includes/widgets/advanced-slider.php:1208
+#: includes/widgets/advanced-posts.php:2040
+#: includes/widgets/advanced-posts.php:2293
+#: includes/widgets/advanced-slider.php:1209
 #: includes/widgets/advanced-tabs.php:441
 #: includes/widgets/advanced-tabs.php:538
 #: includes/widgets/advanced-tabs.php:963
 #: includes/widgets/content-switcher.php:199
 #: includes/widgets/content-switcher.php:353
-#: includes/widgets/countdown.php:429
+#: includes/widgets/countdown.php:428
 #: includes/widgets/flip-box.php:132
 #: includes/widgets/flip-box.php:683
 #: includes/widgets/flip-box.php:792
-#: includes/widgets/flip-box.php:1261
+#: includes/widgets/flip-box.php:1271
 #: includes/widgets/horizontal-timeline.php:421
 #: includes/widgets/horizontal-timeline.php:710
 #: includes/widgets/horizontal-timeline.php:997
@@ -1413,24 +1419,24 @@ msgstr ""
 
 #: includes/widgets/advanced-accordion.php:393
 #: includes/widgets/advanced-accordion.php:556
-#: includes/widgets/advanced-posts.php:638
-#: includes/widgets/advanced-posts.php:1265
-#: includes/widgets/advanced-posts.php:1592
-#: includes/widgets/advanced-posts.php:1717
-#: includes/widgets/advanced-posts.php:1863
-#: includes/widgets/advanced-posts.php:1979
-#: includes/widgets/advanced-posts.php:2223
-#: includes/widgets/advanced-posts.php:2437
-#: includes/widgets/advanced-slider.php:148
-#: includes/widgets/advanced-slider.php:206
-#: includes/widgets/advanced-slider.php:234
-#: includes/widgets/advanced-slider.php:262
-#: includes/widgets/advanced-slider.php:290
-#: includes/widgets/advanced-slider.php:566
-#: includes/widgets/advanced-slider.php:805
-#: includes/widgets/advanced-slider.php:920
-#: includes/widgets/advanced-slider.php:1035
-#: includes/widgets/advanced-slider.php:1150
+#: includes/widgets/advanced-posts.php:639
+#: includes/widgets/advanced-posts.php:1268
+#: includes/widgets/advanced-posts.php:1595
+#: includes/widgets/advanced-posts.php:1720
+#: includes/widgets/advanced-posts.php:1866
+#: includes/widgets/advanced-posts.php:1982
+#: includes/widgets/advanced-posts.php:2226
+#: includes/widgets/advanced-posts.php:2440
+#: includes/widgets/advanced-slider.php:149
+#: includes/widgets/advanced-slider.php:207
+#: includes/widgets/advanced-slider.php:235
+#: includes/widgets/advanced-slider.php:263
+#: includes/widgets/advanced-slider.php:291
+#: includes/widgets/advanced-slider.php:567
+#: includes/widgets/advanced-slider.php:806
+#: includes/widgets/advanced-slider.php:921
+#: includes/widgets/advanced-slider.php:1036
+#: includes/widgets/advanced-slider.php:1151
 #: includes/widgets/advanced-tabs.php:324
 #: includes/widgets/advanced-tabs.php:348
 #: includes/widgets/advanced-tabs.php:689
@@ -1439,16 +1445,16 @@ msgstr ""
 #: includes/widgets/banner.php:352
 #: includes/widgets/circle-progress-bar.php:66
 #: includes/widgets/content-switcher.php:164
-#: includes/widgets/countdown.php:398
+#: includes/widgets/countdown.php:397
 #: includes/widgets/counter.php:121
 #: includes/widgets/flip-box.php:93
 #: includes/widgets/flip-box.php:475
-#: includes/widgets/flip-box.php:936
+#: includes/widgets/flip-box.php:940
 #: includes/widgets/horizontal-timeline.php:354
 #: includes/widgets/horizontal-timeline.php:664
 #: includes/widgets/image-accordion.php:402
 #: includes/widgets/image-accordion.php:480
-#: includes/widgets/image-hotspot.php:244
+#: includes/widgets/image-hotspot.php:213
 #: includes/widgets/lottie-animations.php:236
 #: includes/widgets/masonry-gallery.php:290
 #: includes/widgets/price-list.php:226
@@ -1470,24 +1476,24 @@ msgstr ""
 
 #: includes/widgets/advanced-accordion.php:397
 #: includes/widgets/advanced-accordion.php:564
-#: includes/widgets/advanced-posts.php:646
-#: includes/widgets/advanced-posts.php:1269
-#: includes/widgets/advanced-posts.php:1600
-#: includes/widgets/advanced-posts.php:1725
-#: includes/widgets/advanced-posts.php:1871
-#: includes/widgets/advanced-posts.php:1987
-#: includes/widgets/advanced-posts.php:2231
-#: includes/widgets/advanced-posts.php:2445
-#: includes/widgets/advanced-slider.php:156
-#: includes/widgets/advanced-slider.php:214
-#: includes/widgets/advanced-slider.php:242
-#: includes/widgets/advanced-slider.php:270
-#: includes/widgets/advanced-slider.php:298
-#: includes/widgets/advanced-slider.php:574
-#: includes/widgets/advanced-slider.php:813
-#: includes/widgets/advanced-slider.php:928
-#: includes/widgets/advanced-slider.php:1043
-#: includes/widgets/advanced-slider.php:1158
+#: includes/widgets/advanced-posts.php:647
+#: includes/widgets/advanced-posts.php:1272
+#: includes/widgets/advanced-posts.php:1603
+#: includes/widgets/advanced-posts.php:1728
+#: includes/widgets/advanced-posts.php:1874
+#: includes/widgets/advanced-posts.php:1990
+#: includes/widgets/advanced-posts.php:2234
+#: includes/widgets/advanced-posts.php:2448
+#: includes/widgets/advanced-slider.php:157
+#: includes/widgets/advanced-slider.php:215
+#: includes/widgets/advanced-slider.php:243
+#: includes/widgets/advanced-slider.php:271
+#: includes/widgets/advanced-slider.php:299
+#: includes/widgets/advanced-slider.php:575
+#: includes/widgets/advanced-slider.php:814
+#: includes/widgets/advanced-slider.php:929
+#: includes/widgets/advanced-slider.php:1044
+#: includes/widgets/advanced-slider.php:1159
 #: includes/widgets/advanced-tabs.php:328
 #: includes/widgets/advanced-tabs.php:356
 #: includes/widgets/advanced-tabs.php:693
@@ -1496,16 +1502,16 @@ msgstr ""
 #: includes/widgets/banner.php:360
 #: includes/widgets/circle-progress-bar.php:74
 #: includes/widgets/content-switcher.php:172
-#: includes/widgets/countdown.php:406
+#: includes/widgets/countdown.php:405
 #: includes/widgets/counter.php:129
 #: includes/widgets/flip-box.php:92
 #: includes/widgets/flip-box.php:483
-#: includes/widgets/flip-box.php:944
+#: includes/widgets/flip-box.php:948
 #: includes/widgets/horizontal-timeline.php:362
 #: includes/widgets/horizontal-timeline.php:672
 #: includes/widgets/image-accordion.php:401
 #: includes/widgets/image-accordion.php:488
-#: includes/widgets/image-hotspot.php:242
+#: includes/widgets/image-hotspot.php:211
 #: includes/widgets/lottie-animations.php:244
 #: includes/widgets/masonry-gallery.php:298
 #: includes/widgets/price-list.php:227
@@ -1542,7 +1548,7 @@ msgstr ""
 #: includes/widgets/advanced-accordion.php:703
 #: includes/widgets/advanced-accordion.php:750
 #: includes/widgets/advanced-accordion.php:797
-#: includes/widgets/advanced-posts.php:2201
+#: includes/widgets/advanced-posts.php:2204
 #: includes/widgets/advanced-tabs.php:784
 #: includes/widgets/advanced-tabs.php:805
 #: includes/widgets/advanced-tabs.php:826
@@ -1563,38 +1569,38 @@ msgid "Header style"
 msgstr ""
 
 #: includes/widgets/advanced-accordion.php:550
-#: includes/widgets/advanced-slider.php:229
+#: includes/widgets/advanced-slider.php:230
 #: includes/widgets/banner.php:236
 msgid "Title Alignment"
 msgstr ""
 
 #: includes/widgets/advanced-accordion.php:560
-#: includes/widgets/advanced-posts.php:642
-#: includes/widgets/advanced-posts.php:1596
-#: includes/widgets/advanced-posts.php:1721
-#: includes/widgets/advanced-posts.php:1867
-#: includes/widgets/advanced-posts.php:1983
-#: includes/widgets/advanced-posts.php:2227
-#: includes/widgets/advanced-posts.php:2441
-#: includes/widgets/advanced-slider.php:152
-#: includes/widgets/advanced-slider.php:210
-#: includes/widgets/advanced-slider.php:238
-#: includes/widgets/advanced-slider.php:266
-#: includes/widgets/advanced-slider.php:294
-#: includes/widgets/advanced-slider.php:570
-#: includes/widgets/advanced-slider.php:809
-#: includes/widgets/advanced-slider.php:924
-#: includes/widgets/advanced-slider.php:1039
-#: includes/widgets/advanced-slider.php:1154
+#: includes/widgets/advanced-posts.php:643
+#: includes/widgets/advanced-posts.php:1599
+#: includes/widgets/advanced-posts.php:1724
+#: includes/widgets/advanced-posts.php:1870
+#: includes/widgets/advanced-posts.php:1986
+#: includes/widgets/advanced-posts.php:2230
+#: includes/widgets/advanced-posts.php:2444
+#: includes/widgets/advanced-slider.php:153
+#: includes/widgets/advanced-slider.php:211
+#: includes/widgets/advanced-slider.php:239
+#: includes/widgets/advanced-slider.php:267
+#: includes/widgets/advanced-slider.php:295
+#: includes/widgets/advanced-slider.php:571
+#: includes/widgets/advanced-slider.php:810
+#: includes/widgets/advanced-slider.php:925
+#: includes/widgets/advanced-slider.php:1040
+#: includes/widgets/advanced-slider.php:1155
 #: includes/widgets/advanced-tabs.php:352
 #: includes/widgets/banner.php:246
 #: includes/widgets/banner.php:356
 #: includes/widgets/circle-progress-bar.php:70
 #: includes/widgets/content-switcher.php:168
-#: includes/widgets/countdown.php:402
+#: includes/widgets/countdown.php:401
 #: includes/widgets/counter.php:125
 #: includes/widgets/flip-box.php:479
-#: includes/widgets/flip-box.php:940
+#: includes/widgets/flip-box.php:944
 #: includes/widgets/horizontal-timeline.php:358
 #: includes/widgets/horizontal-timeline.php:668
 #: includes/widgets/image-accordion.php:484
@@ -1615,15 +1621,15 @@ msgstr ""
 
 #: includes/widgets/advanced-accordion.php:579
 #: includes/widgets/advanced-accordion.php:864
-#: includes/widgets/advanced-posts.php:1635
-#: includes/widgets/advanced-posts.php:1761
-#: includes/widgets/advanced-posts.php:1903
-#: includes/widgets/advanced-posts.php:2019
-#: includes/widgets/advanced-posts.php:2266
-#: includes/widgets/advanced-slider.php:845
-#: includes/widgets/advanced-slider.php:960
-#: includes/widgets/advanced-slider.php:1075
-#: includes/widgets/advanced-slider.php:1190
+#: includes/widgets/advanced-posts.php:1638
+#: includes/widgets/advanced-posts.php:1764
+#: includes/widgets/advanced-posts.php:1906
+#: includes/widgets/advanced-posts.php:2022
+#: includes/widgets/advanced-posts.php:2269
+#: includes/widgets/advanced-slider.php:846
+#: includes/widgets/advanced-slider.php:961
+#: includes/widgets/advanced-slider.php:1076
+#: includes/widgets/advanced-slider.php:1191
 #: includes/widgets/advanced-tabs.php:491
 #: includes/widgets/advanced-tabs.php:891
 #: includes/widgets/content-switcher.php:300
@@ -1635,7 +1641,7 @@ msgstr ""
 
 #: includes/widgets/advanced-accordion.php:590
 #: includes/widgets/advanced-accordion.php:899
-#: includes/widgets/advanced-slider.php:458
+#: includes/widgets/advanced-slider.php:459
 #: includes/widgets/advanced-tabs.php:405
 #: includes/widgets/advanced-tabs.php:502
 #: includes/widgets/advanced-tabs.php:926
@@ -1644,9 +1650,9 @@ msgstr ""
 #: includes/widgets/content-switcher.php:307
 #: includes/widgets/content-switcher.php:330
 #: includes/widgets/content-switcher.php:492
-#: includes/widgets/countdown.php:462
+#: includes/widgets/countdown.php:461
 #: includes/widgets/flip-box.php:459
-#: includes/widgets/flip-box.php:920
+#: includes/widgets/flip-box.php:924
 #: includes/widgets/horizontal-timeline.php:434
 #: includes/widgets/horizontal-timeline.php:1009
 #: includes/widgets/image-accordion.php:699
@@ -1687,8 +1693,8 @@ msgstr ""
 #: includes/widgets/advanced-accordion.php:715
 #: includes/widgets/advanced-accordion.php:762
 #: includes/widgets/advanced-accordion.php:809
-#: includes/widgets/advanced-slider.php:1002
-#: includes/widgets/advanced-slider.php:1117
+#: includes/widgets/advanced-slider.php:1003
+#: includes/widgets/advanced-slider.php:1118
 #: includes/widgets/advanced-tabs.php:572
 #: includes/widgets/advanced-tabs.php:607
 #: includes/widgets/advanced-tabs.php:642
@@ -1709,12 +1715,12 @@ msgstr ""
 #: includes/widgets/advanced-tabs.php:585
 #: includes/widgets/advanced-tabs.php:620
 #: includes/widgets/advanced-tabs.php:655
-#: includes/widgets/circle-progress-bar.php:274
-#: includes/widgets/circle-progress-bar.php:324
+#: includes/widgets/circle-progress-bar.php:276
+#: includes/widgets/circle-progress-bar.php:327
 #: includes/widgets/content-switcher.php:220
 #: includes/widgets/content-switcher.php:236
-#: includes/widgets/flip-box.php:1167
-#: includes/widgets/flip-box.php:1213
+#: includes/widgets/flip-box.php:1177
+#: includes/widgets/flip-box.php:1223
 #: includes/widgets/horizontal-timeline.php:1060
 #: includes/widgets/horizontal-timeline.php:1099
 #: includes/widgets/horizontal-timeline.php:1152
@@ -1760,18 +1766,18 @@ msgstr ""
 #: includes/widgets/advanced-tabs.php:876
 #: includes/widgets/banner.php:456
 #: includes/widgets/banner.php:527
-#: includes/widgets/circle-progress-bar.php:247
-#: includes/widgets/circle-progress-bar.php:297
+#: includes/widgets/circle-progress-bar.php:248
+#: includes/widgets/circle-progress-bar.php:300
 #: includes/widgets/content-switcher.php:382
 #: includes/widgets/content-switcher.php:421
 #: includes/widgets/content-switcher.php:443
 #: includes/widgets/content-switcher.php:459
 #: includes/widgets/flip-box.php:845
-#: includes/widgets/flip-box.php:884
-#: includes/widgets/flip-box.php:1032
-#: includes/widgets/flip-box.php:1071
-#: includes/widgets/flip-box.php:1156
-#: includes/widgets/flip-box.php:1202
+#: includes/widgets/flip-box.php:886
+#: includes/widgets/flip-box.php:1036
+#: includes/widgets/flip-box.php:1077
+#: includes/widgets/flip-box.php:1166
+#: includes/widgets/flip-box.php:1212
 #: includes/widgets/image-accordion.php:860
 #: includes/widgets/image-accordion.php:902
 #: includes/widgets/masonry-gallery.php:362
@@ -1843,20 +1849,8 @@ msgstr ""
 msgid "Center Latitude"
 msgstr ""
 
-#: includes/widgets/advanced-google-map.php:120
-#: includes/widgets/advanced-google-map.php:218
-#: includes/widgets/advanced-google-map.php:398
-msgid "48.208174"
-msgstr ""
-
 #: includes/widgets/advanced-google-map.php:127
 msgid "Center Longitude"
-msgstr ""
-
-#: includes/widgets/advanced-google-map.php:132
-#: includes/widgets/advanced-google-map.php:234
-#: includes/widgets/advanced-google-map.php:408
-msgid "16.373819"
 msgstr ""
 
 #: includes/widgets/advanced-google-map.php:148
@@ -1873,7 +1867,7 @@ msgstr ""
 #: includes/widgets/advanced-google-map.php:163
 #: includes/widgets/advanced-google-map.php:388
 #: includes/widgets/image-accordion.php:186
-#: includes/widgets/image-hotspot.php:180
+#: includes/widgets/image-hotspot.php:282
 #: includes/widgets/vertical-timeline.php:106
 msgid "Type your title here..."
 msgstr ""
@@ -1903,25 +1897,34 @@ msgstr ""
 msgid "Marker Latitude"
 msgstr ""
 
+#: includes/widgets/advanced-google-map.php:218
+#: includes/widgets/advanced-google-map.php:398
+msgid "48.208174"
+msgstr ""
+
 #: includes/widgets/advanced-google-map.php:231
 #: includes/widgets/advanced-google-map.php:405
 msgid "Marker Longitude"
 msgstr ""
 
+#: includes/widgets/advanced-google-map.php:234
+#: includes/widgets/advanced-google-map.php:408
+msgid "16.373819"
+msgstr ""
+
 #: includes/widgets/advanced-google-map.php:247
 #: includes/widgets/advanced-google-map.php:415
-#: includes/widgets/advanced-posts.php:230
-#: includes/widgets/advanced-posts.php:1846
+#: includes/widgets/advanced-posts.php:231
+#: includes/widgets/advanced-posts.php:1849
 #: includes/widgets/banner.php:44
 #: includes/widgets/content-switcher.php:47
-#: includes/widgets/countdown.php:82
+#: includes/widgets/countdown.php:81
 #: includes/widgets/counter.php:49
 #: includes/widgets/flip-box.php:159
 #: includes/widgets/flip-box.php:336
 #: includes/widgets/image-accordion.php:150
 #: includes/widgets/image-accordion.php:576
 #: includes/widgets/image-hotspot.php:65
-#: includes/widgets/image-hotspot.php:95
 #: includes/widgets/instagram.php:60
 #: includes/widgets/price-list.php:46
 #: includes/widgets/price-menu.php:48
@@ -1940,14 +1943,14 @@ msgstr ""
 #: includes/widgets/advanced-google-map.php:251
 #: includes/widgets/advanced-google-map.php:419
 #: includes/widgets/image-accordion.php:199
-#: includes/widgets/image-hotspot.php:197
+#: includes/widgets/image-hotspot.php:299
 #: includes/widgets/testimonial-carousel.php:80
 msgid "Type your content here..."
 msgstr ""
 
 #: includes/widgets/advanced-google-map.php:263
 #: includes/widgets/advanced-google-map.php:426
-#: includes/widgets/image-hotspot.php:207
+#: includes/widgets/image-hotspot.php:176
 msgid "Opened by default"
 msgstr ""
 
@@ -1955,12 +1958,12 @@ msgstr ""
 #: includes/widgets/advanced-google-map.php:297
 #: includes/widgets/advanced-google-map.php:429
 #: includes/widgets/advanced-google-map.php:450
-#: includes/widgets/advanced-posts.php:293
-#: includes/widgets/advanced-posts.php:308
-#: includes/widgets/advanced-posts.php:1572
+#: includes/widgets/advanced-posts.php:294
+#: includes/widgets/advanced-posts.php:309
+#: includes/widgets/advanced-posts.php:1575
 #: includes/widgets/image-hotspot.php:167
-#: includes/widgets/image-hotspot.php:210
-#: includes/widgets/image-hotspot.php:225
+#: includes/widgets/image-hotspot.php:179
+#: includes/widgets/image-hotspot.php:194
 #: includes/widgets/image-hotspot.php:316
 #: includes/widgets/price-list.php:241
 #: includes/widgets/price-menu.php:242
@@ -1973,12 +1976,12 @@ msgstr ""
 #: includes/widgets/advanced-google-map.php:298
 #: includes/widgets/advanced-google-map.php:430
 #: includes/widgets/advanced-google-map.php:451
-#: includes/widgets/advanced-posts.php:294
-#: includes/widgets/advanced-posts.php:309
-#: includes/widgets/advanced-posts.php:1573
+#: includes/widgets/advanced-posts.php:295
+#: includes/widgets/advanced-posts.php:310
+#: includes/widgets/advanced-posts.php:1576
 #: includes/widgets/image-hotspot.php:168
-#: includes/widgets/image-hotspot.php:211
-#: includes/widgets/image-hotspot.php:226
+#: includes/widgets/image-hotspot.php:180
+#: includes/widgets/image-hotspot.php:195
 #: includes/widgets/image-hotspot.php:317
 #: includes/widgets/price-list.php:242
 #: includes/widgets/price-menu.php:243
@@ -2024,8 +2027,8 @@ msgstr ""
 #: includes/widgets/advanced-google-map.php:551
 #: includes/widgets/advanced-google-map.php:564
 #: includes/widgets/advanced-google-map.php:577
-#: includes/widgets/advanced-posts.php:141
-#: includes/widgets/advanced-posts.php:243
+#: includes/widgets/advanced-posts.php:142
+#: includes/widgets/advanced-posts.php:244
 #: includes/widgets/price-list.php:157
 #: includes/widgets/price-menu.php:153
 msgid "On"
@@ -2035,8 +2038,8 @@ msgstr ""
 #: includes/widgets/advanced-google-map.php:552
 #: includes/widgets/advanced-google-map.php:565
 #: includes/widgets/advanced-google-map.php:578
-#: includes/widgets/advanced-posts.php:140
-#: includes/widgets/advanced-posts.php:244
+#: includes/widgets/advanced-posts.php:141
+#: includes/widgets/advanced-posts.php:245
 #: includes/widgets/price-list.php:158
 #: includes/widgets/price-menu.php:154
 msgid "Off"
@@ -2055,10 +2058,10 @@ msgid "Fullscreen Control"
 msgstr ""
 
 #: includes/widgets/advanced-google-map.php:601
-#: includes/widgets/advanced-posts.php:543
-#: includes/widgets/advanced-posts.php:571
-#: includes/widgets/advanced-slider.php:471
-#: includes/widgets/advanced-slider.php:499
+#: includes/widgets/advanced-posts.php:544
+#: includes/widgets/advanced-posts.php:572
+#: includes/widgets/advanced-slider.php:472
+#: includes/widgets/advanced-slider.php:500
 #: includes/widgets/flip-box.php:110
 #: includes/widgets/horizontal-timeline.php:1433
 msgid "Height"
@@ -2103,7 +2106,7 @@ msgid "Retro"
 msgstr ""
 
 #: includes/widgets/advanced-google-map.php:666
-#: includes/widgets/image-hotspot.php:260
+#: includes/widgets/image-hotspot.php:229
 msgid "Dark"
 msgstr ""
 
@@ -2177,32 +2180,32 @@ msgstr ""
 msgid "to get JSON style code to style your map"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:102
+#: includes/widgets/advanced-posts.php:103
 #: includes/widgets/horizontal-timeline.php:300
 #: includes/widgets/horizontal-timeline.php:324
 #: includes/widgets/vertical-timeline.php:284
 msgid "Layout"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:106
+#: includes/widgets/advanced-posts.php:107
 msgid "Grid"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:107
+#: includes/widgets/advanced-posts.php:108
 msgid "List"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:138
+#: includes/widgets/advanced-posts.php:139
 msgid "Masonry"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:155
+#: includes/widgets/advanced-posts.php:156
 msgid "Note: By enabling Masonry options, you disable some controls for customizing the Advanced Posts widget. Customize it before turning on Masonry."
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:168
-#: includes/widgets/advanced-posts.php:1199
-#: includes/widgets/advanced-slider.php:315
+#: includes/widgets/advanced-posts.php:169
+#: includes/widgets/advanced-posts.php:1202
+#: includes/widgets/advanced-slider.php:316
 #: includes/widgets/banner.php:51
 #: includes/widgets/banner.php:95
 #: includes/widgets/flip-box.php:172
@@ -2224,10 +2227,25 @@ msgstr ""
 msgid "Image"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:170
-#: includes/widgets/advanced-posts.php:184
-#: includes/widgets/advanced-posts.php:232
-#: includes/widgets/advanced-posts.php:270
+#: includes/widgets/advanced-posts.php:171
+#: includes/widgets/advanced-posts.php:185
+#: includes/widgets/advanced-posts.php:233
+#: includes/widgets/advanced-posts.php:271
+#: includes/widgets/countdown.php:101
+#: includes/widgets/countdown.php:112
+#: includes/widgets/countdown.php:123
+#: includes/widgets/countdown.php:134
+#: includes/widgets/countdown.php:145
+#: includes/widgets/countdown.php:156
+#: includes/widgets/countdown.php:167
+#: includes/widgets/countdown.php:244
+msgid "Show"
+msgstr ""
+
+#: includes/widgets/advanced-posts.php:172
+#: includes/widgets/advanced-posts.php:186
+#: includes/widgets/advanced-posts.php:234
+#: includes/widgets/advanced-posts.php:272
 #: includes/widgets/countdown.php:102
 #: includes/widgets/countdown.php:113
 #: includes/widgets/countdown.php:124
@@ -2235,184 +2253,169 @@ msgstr ""
 #: includes/widgets/countdown.php:146
 #: includes/widgets/countdown.php:157
 #: includes/widgets/countdown.php:168
+#: includes/widgets/countdown.php:181
 #: includes/widgets/countdown.php:245
-msgid "Show"
-msgstr ""
-
-#: includes/widgets/advanced-posts.php:171
-#: includes/widgets/advanced-posts.php:185
-#: includes/widgets/advanced-posts.php:233
-#: includes/widgets/advanced-posts.php:271
-#: includes/widgets/countdown.php:103
-#: includes/widgets/countdown.php:114
-#: includes/widgets/countdown.php:125
-#: includes/widgets/countdown.php:136
-#: includes/widgets/countdown.php:147
-#: includes/widgets/countdown.php:158
-#: includes/widgets/countdown.php:169
-#: includes/widgets/countdown.php:182
-#: includes/widgets/countdown.php:246
 msgid "Hide"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:193
-#: includes/widgets/advanced-posts.php:1700
+#: includes/widgets/advanced-posts.php:194
+#: includes/widgets/advanced-posts.php:1703
 msgid "Meta Fields"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:199
+#: includes/widgets/advanced-posts.php:200
 msgid "Author"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:200
-#: includes/widgets/advanced-posts.php:399
+#: includes/widgets/advanced-posts.php:201
+#: includes/widgets/advanced-posts.php:400
 msgid "Date"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:201
+#: includes/widgets/advanced-posts.php:202
 msgid "Comments"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:202
+#: includes/widgets/advanced-posts.php:203
 msgid "Categories"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:210
+#: includes/widgets/advanced-posts.php:211
 msgid "Meta Fields Divider"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:213
+#: includes/widgets/advanced-posts.php:214
 msgid "Symbol to separate fields"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:241
+#: includes/widgets/advanced-posts.php:242
 msgid "Use Excerpt"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:255
+#: includes/widgets/advanced-posts.php:256
 msgid "Excerpt Length (Words)"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:268
-#: includes/widgets/advanced-posts.php:281
-#: includes/widgets/advanced-posts.php:1962
+#: includes/widgets/advanced-posts.php:269
+#: includes/widgets/advanced-posts.php:282
+#: includes/widgets/advanced-posts.php:1965
 msgid "Read More"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:279
+#: includes/widgets/advanced-posts.php:280
 msgid "Read More Text"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:291
+#: includes/widgets/advanced-posts.php:292
 msgid "Open in new window"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:326
+#: includes/widgets/advanced-posts.php:327
 msgid "Load More Button"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:327
+#: includes/widgets/advanced-posts.php:328
 msgid "Load on scroll"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:339
+#: includes/widgets/advanced-posts.php:340
 msgid "Load More Text"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:341
+#: includes/widgets/advanced-posts.php:342
 msgid "Load More"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:355
+#: includes/widgets/advanced-posts.php:356
 msgid "Query Settings"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:363
+#: includes/widgets/advanced-posts.php:364
 msgid "Post Type"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:373
+#: includes/widgets/advanced-posts.php:374
 msgid "Posts Per Page"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:382
+#: includes/widgets/advanced-posts.php:383
 msgid "Order"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:386
+#: includes/widgets/advanced-posts.php:387
 msgid "ASC"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:387
+#: includes/widgets/advanced-posts.php:388
 msgid "DESC"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:395
+#: includes/widgets/advanced-posts.php:396
 msgid "Order By"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:401
+#: includes/widgets/advanced-posts.php:402
 msgid "Menu Order"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:409
+#: includes/widgets/advanced-posts.php:410
 msgid "Ignore Sticky Posts"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:421
+#: includes/widgets/advanced-posts.php:422
 msgid "Display only the specific posts (Include)"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:425
-#: includes/widgets/advanced-posts.php:436
+#: includes/widgets/advanced-posts.php:426
+#: includes/widgets/advanced-posts.php:437
 msgid "Comma-separated IDs"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:432
+#: includes/widgets/advanced-posts.php:433
 msgid "Display all posts but NOT the specified ones (Exclude)"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:443
+#: includes/widgets/advanced-posts.php:444
 msgid "Exclude Current Post"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:452
+#: includes/widgets/advanced-posts.php:453
 msgid "Taxonomies"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:470
+#: includes/widgets/advanced-posts.php:471
 msgid "Terms (%s)"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:486
+#: includes/widgets/advanced-posts.php:487
 msgid "Terms Relation"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:491
+#: includes/widgets/advanced-posts.php:492
 msgid "Item must have all selected terms."
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:492
+#: includes/widgets/advanced-posts.php:493
 msgid "Item must have at least one of selected terms."
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:519
+#: includes/widgets/advanced-posts.php:520
 msgid "Carousel Style"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:530
+#: includes/widgets/advanced-posts.php:531
 msgid "Slide Padding"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:600
-#: includes/widgets/advanced-slider.php:528
+#: includes/widgets/advanced-posts.php:601
+#: includes/widgets/advanced-slider.php:529
 #: includes/widgets/testimonial-carousel.php:220
 msgid "Content Width"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:632
-#: includes/widgets/advanced-slider.php:143
-#: includes/widgets/advanced-slider.php:560
+#: includes/widgets/advanced-posts.php:633
+#: includes/widgets/advanced-slider.php:144
+#: includes/widgets/advanced-slider.php:561
 #: includes/widgets/counter.php:115
 #: includes/widgets/masonry-gallery.php:284
 #: includes/widgets/table.php:890
@@ -2421,10 +2424,10 @@ msgstr ""
 msgid "Horizontal Alignment"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:659
-#: includes/widgets/advanced-posts.php:1210
-#: includes/widgets/advanced-slider.php:172
-#: includes/widgets/advanced-slider.php:587
+#: includes/widgets/advanced-posts.php:660
+#: includes/widgets/advanced-posts.php:1213
+#: includes/widgets/advanced-slider.php:173
+#: includes/widgets/advanced-slider.php:588
 #: includes/widgets/masonry-gallery.php:311
 #: includes/widgets/table.php:915
 #: includes/widgets/table.php:1164
@@ -2432,19 +2435,19 @@ msgstr ""
 msgid "Vertical Alignment"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:665
-#: includes/widgets/advanced-posts.php:1216
-#: includes/widgets/advanced-slider.php:177
-#: includes/widgets/advanced-slider.php:593
+#: includes/widgets/advanced-posts.php:666
+#: includes/widgets/advanced-posts.php:1219
+#: includes/widgets/advanced-slider.php:178
+#: includes/widgets/advanced-slider.php:594
 #: includes/widgets/advanced-tabs.php:299
 #: includes/widgets/advanced-tabs.php:380
 #: includes/widgets/advanced-tabs.php:713
 #: includes/widgets/banner.php:379
 #: includes/widgets/flip-box.php:501
-#: includes/widgets/flip-box.php:962
+#: includes/widgets/flip-box.php:966
 #: includes/widgets/horizontal-timeline.php:330
 #: includes/widgets/image-accordion.php:453
-#: includes/widgets/image-hotspot.php:241
+#: includes/widgets/image-hotspot.php:210
 #: includes/widgets/lottie-animations.php:168
 #: includes/widgets/masonry-gallery.php:317
 #: includes/widgets/price-list.php:225
@@ -2456,33 +2459,33 @@ msgstr ""
 msgid "Top"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:669
-#: includes/widgets/advanced-posts.php:1220
-#: includes/widgets/advanced-slider.php:181
-#: includes/widgets/advanced-slider.php:597
+#: includes/widgets/advanced-posts.php:670
+#: includes/widgets/advanced-posts.php:1223
+#: includes/widgets/advanced-slider.php:182
+#: includes/widgets/advanced-slider.php:598
 #: includes/widgets/advanced-tabs.php:384
 #: includes/widgets/banner.php:383
 #: includes/widgets/flip-box.php:505
-#: includes/widgets/flip-box.php:966
+#: includes/widgets/flip-box.php:970
 #: includes/widgets/image-accordion.php:457
 #: includes/widgets/vertical-timeline.php:315
 #: includes/widgets/vertical-timeline.php:338
 msgid "Middle"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:673
-#: includes/widgets/advanced-posts.php:1224
-#: includes/widgets/advanced-slider.php:185
-#: includes/widgets/advanced-slider.php:601
+#: includes/widgets/advanced-posts.php:674
+#: includes/widgets/advanced-posts.php:1227
+#: includes/widgets/advanced-slider.php:186
+#: includes/widgets/advanced-slider.php:602
 #: includes/widgets/advanced-tabs.php:303
 #: includes/widgets/advanced-tabs.php:388
 #: includes/widgets/advanced-tabs.php:717
 #: includes/widgets/banner.php:387
 #: includes/widgets/flip-box.php:509
-#: includes/widgets/flip-box.php:970
+#: includes/widgets/flip-box.php:974
 #: includes/widgets/horizontal-timeline.php:338
 #: includes/widgets/image-accordion.php:461
-#: includes/widgets/image-hotspot.php:243
+#: includes/widgets/image-hotspot.php:212
 #: includes/widgets/lottie-animations.php:167
 #: includes/widgets/masonry-gallery.php:325
 #: includes/widgets/table.php:215
@@ -2493,139 +2496,139 @@ msgstr ""
 msgid "Bottom"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:686
-#: includes/widgets/advanced-posts.php:1284
-#: includes/widgets/advanced-slider.php:614
+#: includes/widgets/advanced-posts.php:687
+#: includes/widgets/advanced-posts.php:1287
+#: includes/widgets/advanced-slider.php:615
 msgid "Hover Animation Effect"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:691
-#: includes/widgets/advanced-posts.php:1289
-#: includes/widgets/advanced-slider.php:619
+#: includes/widgets/advanced-posts.php:692
+#: includes/widgets/advanced-posts.php:1292
+#: includes/widgets/advanced-slider.php:620
 #: includes/widgets/banner.php:204
 msgid "Aries"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:692
-#: includes/widgets/advanced-posts.php:1290
-#: includes/widgets/advanced-slider.php:620
+#: includes/widgets/advanced-posts.php:693
+#: includes/widgets/advanced-posts.php:1293
+#: includes/widgets/advanced-slider.php:621
 #: includes/widgets/banner.php:205
 msgid "Taurus"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:693
-#: includes/widgets/advanced-posts.php:1291
-#: includes/widgets/advanced-slider.php:621
+#: includes/widgets/advanced-posts.php:694
+#: includes/widgets/advanced-posts.php:1294
+#: includes/widgets/advanced-slider.php:622
 #: includes/widgets/banner.php:206
 msgid "Gemini"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:694
-#: includes/widgets/advanced-posts.php:1292
-#: includes/widgets/advanced-slider.php:622
+#: includes/widgets/advanced-posts.php:695
+#: includes/widgets/advanced-posts.php:1295
+#: includes/widgets/advanced-slider.php:623
 #: includes/widgets/banner.php:207
 msgid "Cancer"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:695
-#: includes/widgets/advanced-posts.php:1293
-#: includes/widgets/advanced-slider.php:623
+#: includes/widgets/advanced-posts.php:696
+#: includes/widgets/advanced-posts.php:1296
+#: includes/widgets/advanced-slider.php:624
 #: includes/widgets/banner.php:208
 msgid "Leo"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:696
-#: includes/widgets/advanced-posts.php:1294
-#: includes/widgets/advanced-slider.php:624
+#: includes/widgets/advanced-posts.php:697
+#: includes/widgets/advanced-posts.php:1297
+#: includes/widgets/advanced-slider.php:625
 #: includes/widgets/banner.php:209
 msgid "Virgo"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:704
-#: includes/widgets/advanced-slider.php:632
+#: includes/widgets/advanced-posts.php:705
+#: includes/widgets/advanced-slider.php:633
 #: includes/widgets/banner.php:217
 msgid "Text Animation Effect"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:709
-#: includes/widgets/advanced-slider.php:637
+#: includes/widgets/advanced-posts.php:710
+#: includes/widgets/advanced-slider.php:638
 #: includes/widgets/banner.php:222
 #: includes/widgets/vertical-timeline.php:297
 msgid "Fade In"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:710
-#: includes/widgets/advanced-slider.php:638
+#: includes/widgets/advanced-posts.php:711
+#: includes/widgets/advanced-slider.php:639
 #: includes/widgets/banner.php:223
 msgid "Fade In Up"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:711
-#: includes/widgets/advanced-slider.php:639
+#: includes/widgets/advanced-posts.php:712
+#: includes/widgets/advanced-slider.php:640
 #: includes/widgets/banner.php:224
 msgid "Fade In Down"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:712
-#: includes/widgets/advanced-slider.php:640
+#: includes/widgets/advanced-posts.php:713
+#: includes/widgets/advanced-slider.php:641
 #: includes/widgets/banner.php:225
 msgid "Fade In Left"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:713
-#: includes/widgets/advanced-slider.php:641
+#: includes/widgets/advanced-posts.php:714
+#: includes/widgets/advanced-slider.php:642
 #: includes/widgets/banner.php:226
 msgid "Fade In Right"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:714
-#: includes/widgets/advanced-slider.php:642
+#: includes/widgets/advanced-posts.php:715
+#: includes/widgets/advanced-slider.php:643
 #: includes/widgets/banner.php:227
 #: includes/widgets/flip-box.php:78
 msgid "Zoom In"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:715
-#: includes/widgets/advanced-slider.php:643
+#: includes/widgets/advanced-posts.php:716
+#: includes/widgets/advanced-slider.php:644
 #: includes/widgets/banner.php:228
 #: includes/widgets/flip-box.php:79
 msgid "Zoom Out"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:727
-#: includes/widgets/advanced-slider.php:655
+#: includes/widgets/advanced-posts.php:728
+#: includes/widgets/advanced-slider.php:656
 msgid "Hover Image Animation Speed"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:728
-#: includes/widgets/advanced-posts.php:766
-#: includes/widgets/advanced-slider.php:656
-#: includes/widgets/advanced-slider.php:694
+#: includes/widgets/advanced-posts.php:729
+#: includes/widgets/advanced-posts.php:767
+#: includes/widgets/advanced-slider.php:657
+#: includes/widgets/advanced-slider.php:695
 #: includes/widgets/masonry-gallery.php:167
 msgid "In Seconds"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:750
-#: includes/widgets/advanced-slider.php:678
+#: includes/widgets/advanced-posts.php:751
+#: includes/widgets/advanced-slider.php:679
 msgid "Text Animation Delay"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:751
-#: includes/widgets/advanced-slider.php:679
+#: includes/widgets/advanced-posts.php:752
+#: includes/widgets/advanced-slider.php:680
 msgid "In Milliseconds "
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:765
-#: includes/widgets/advanced-slider.php:693
+#: includes/widgets/advanced-posts.php:766
+#: includes/widgets/advanced-slider.php:694
 msgid "Text Animation Speed"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:802
-#: includes/widgets/advanced-posts.php:843
-#: includes/widgets/advanced-posts.php:1485
-#: includes/widgets/advanced-posts.php:1536
-#: includes/widgets/advanced-slider.php:729
-#: includes/widgets/advanced-slider.php:770
+#: includes/widgets/advanced-posts.php:803
+#: includes/widgets/advanced-posts.php:844
+#: includes/widgets/advanced-posts.php:1488
+#: includes/widgets/advanced-posts.php:1539
+#: includes/widgets/advanced-slider.php:730
+#: includes/widgets/advanced-slider.php:771
 #: includes/widgets/banner.php:430
 #: includes/widgets/banner.php:499
 #: includes/widgets/image-accordion.php:514
@@ -2634,88 +2637,88 @@ msgstr ""
 msgid "Overlay Color"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:816
-#: includes/widgets/advanced-posts.php:1464
-#: includes/widgets/advanced-slider.php:743
-#: includes/widgets/circle-progress-bar.php:260
-#: includes/widgets/circle-progress-bar.php:310
+#: includes/widgets/advanced-posts.php:817
+#: includes/widgets/advanced-posts.php:1467
+#: includes/widgets/advanced-slider.php:744
+#: includes/widgets/circle-progress-bar.php:261
+#: includes/widgets/circle-progress-bar.php:313
 #: includes/widgets/horizontal-timeline.php:1422
 #: includes/widgets/vertical-timeline.php:1385
 msgid "Line Color"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:863
+#: includes/widgets/advanced-posts.php:864
 msgid "Grid/List Style"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:874
+#: includes/widgets/advanced-posts.php:875
 msgid "Columns Gap"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:901
+#: includes/widgets/advanced-posts.php:903
 msgid "Rows Gap"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:926
+#: includes/widgets/advanced-posts.php:929
 msgid "List Gap"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:956
+#: includes/widgets/advanced-posts.php:959
 msgid "List Checkerboard"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:970
+#: includes/widgets/advanced-posts.php:973
 msgid "Grid Checkerboard"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:985
+#: includes/widgets/advanced-posts.php:988
 msgid "Checkerboard order"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:990
+#: includes/widgets/advanced-posts.php:993
 #: includes/widgets/table.php:1315
 msgid "Odd"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:991
+#: includes/widgets/advanced-posts.php:994
 #: includes/widgets/table.php:1219
 msgid "Even"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1005
+#: includes/widgets/advanced-posts.php:1008
 #: includes/widgets/testimonial-carousel.php:281
 msgid "Box Border"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1013
+#: includes/widgets/advanced-posts.php:1016
 msgid "Box Border Radius"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1034
+#: includes/widgets/advanced-posts.php:1037
 msgid "Inner border"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1058
+#: includes/widgets/advanced-posts.php:1061
 msgid "Box Padding"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1072
+#: includes/widgets/advanced-posts.php:1075
 #: includes/widgets/price-list.php:259
 #: includes/widgets/price-menu.php:375
 msgid "Content Padding"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1086
+#: includes/widgets/advanced-posts.php:1089
 msgid "Content Min Height"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1113
+#: includes/widgets/advanced-posts.php:1116
 #: includes/widgets/instagram.php:116
 #: includes/widgets/masonry-gallery.php:98
 msgid "Animate on scroll"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1125
+#: includes/widgets/advanced-posts.php:1128
 #: includes/widgets/banner.php:199
 #: includes/widgets/counter.php:156
 #: includes/widgets/instagram.php:125
@@ -2723,7 +2726,7 @@ msgstr ""
 msgid "Animation Effect"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1129
+#: includes/widgets/advanced-posts.php:1132
 #: includes/widgets/flip-box.php:756
 #: includes/widgets/instagram.php:129
 #: includes/widgets/lottie-animations.php:316
@@ -2732,81 +2735,81 @@ msgstr ""
 msgid "Opacity"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1130
+#: includes/widgets/advanced-posts.php:1133
 #: includes/widgets/instagram.php:130
 #: includes/widgets/masonry-gallery.php:112
 msgid "Move Up"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1131
+#: includes/widgets/advanced-posts.php:1134
 #: includes/widgets/instagram.php:131
 #: includes/widgets/masonry-gallery.php:113
 msgid "Scale up"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1132
+#: includes/widgets/advanced-posts.php:1135
 #: includes/widgets/instagram.php:132
 #: includes/widgets/masonry-gallery.php:114
 msgid "Fall perspective"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1133
+#: includes/widgets/advanced-posts.php:1136
 #: includes/widgets/instagram.php:133
 #: includes/widgets/masonry-gallery.php:115
 msgid "Fly"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1134
+#: includes/widgets/advanced-posts.php:1137
 #: includes/widgets/flip-box.php:74
 #: includes/widgets/instagram.php:134
 #: includes/widgets/masonry-gallery.php:116
 msgid "Flip"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1135
+#: includes/widgets/advanced-posts.php:1138
 #: includes/widgets/instagram.php:135
 #: includes/widgets/masonry-gallery.php:117
 msgid "Helix"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1136
+#: includes/widgets/advanced-posts.php:1139
 #: includes/widgets/instagram.php:136
 #: includes/widgets/masonry-gallery.php:118
 msgid "Zoom In 3D"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1156
-#: includes/widgets/advanced-posts.php:1179
+#: includes/widgets/advanced-posts.php:1159
+#: includes/widgets/advanced-posts.php:1182
 msgid "Box Background Color"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1240
+#: includes/widgets/advanced-posts.php:1243
 msgid "Image Background Size"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1243
+#: includes/widgets/advanced-posts.php:1246
 #: includes/widgets/image-accordion.php:93
 msgid "Cover"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1244
+#: includes/widgets/advanced-posts.php:1247
 msgid "Initial"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1259
-#: includes/widgets/advanced-posts.php:1586
-#: includes/widgets/advanced-posts.php:1711
-#: includes/widgets/advanced-posts.php:1857
-#: includes/widgets/advanced-posts.php:1973
-#: includes/widgets/advanced-posts.php:2217
-#: includes/widgets/advanced-posts.php:2431
-#: includes/widgets/advanced-slider.php:799
-#: includes/widgets/advanced-slider.php:914
-#: includes/widgets/advanced-slider.php:1029
-#: includes/widgets/advanced-slider.php:1144
+#: includes/widgets/advanced-posts.php:1262
+#: includes/widgets/advanced-posts.php:1589
+#: includes/widgets/advanced-posts.php:1714
+#: includes/widgets/advanced-posts.php:1860
+#: includes/widgets/advanced-posts.php:1976
+#: includes/widgets/advanced-posts.php:2220
+#: includes/widgets/advanced-posts.php:2434
+#: includes/widgets/advanced-slider.php:800
+#: includes/widgets/advanced-slider.php:915
+#: includes/widgets/advanced-slider.php:1030
+#: includes/widgets/advanced-slider.php:1145
 #: includes/widgets/circle-progress-bar.php:59
 #: includes/widgets/flip-box.php:471
-#: includes/widgets/flip-box.php:932
+#: includes/widgets/flip-box.php:936
 #: includes/widgets/horizontal-timeline.php:348
 #: includes/widgets/horizontal-timeline.php:660
 #: includes/widgets/lottie-animations.php:232
@@ -2817,8 +2820,8 @@ msgstr ""
 msgid "Alignment"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1306
-#: includes/widgets/advanced-slider.php:449
+#: includes/widgets/advanced-posts.php:1309
+#: includes/widgets/advanced-slider.php:450
 #: includes/widgets/banner.php:67
 #: includes/widgets/flip-box.php:252
 #: includes/widgets/horizontal-timeline.php:96
@@ -2833,83 +2836,83 @@ msgstr ""
 msgid "Image Size"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1315
+#: includes/widgets/advanced-posts.php:1318
 #: includes/widgets/image-accordion.php:430
 msgid "Image Height"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1343
+#: includes/widgets/advanced-posts.php:1346
 #: includes/widgets/price-list.php:196
 msgid "Image Width"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1380
+#: includes/widgets/advanced-posts.php:1383
 msgid "Spacing (Horizontal)"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1403
+#: includes/widgets/advanced-posts.php:1406
 msgid "Spacing (Bottom)"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1439
-#: includes/widgets/advanced-posts.php:1511
+#: includes/widgets/advanced-posts.php:1442
+#: includes/widgets/advanced-posts.php:1514
 #: includes/widgets/banner.php:409
 #: includes/widgets/banner.php:478
 msgid "Overlay Opacity"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1570
+#: includes/widgets/advanced-posts.php:1573
 msgid "Title over image"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:1792
-#: includes/widgets/advanced-posts.php:1827
+#: includes/widgets/advanced-posts.php:1795
+#: includes/widgets/advanced-posts.php:1830
 msgid "Divider Color"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:2057
-#: includes/widgets/advanced-posts.php:2311
-#: includes/widgets/advanced-slider.php:1228
+#: includes/widgets/advanced-posts.php:2060
+#: includes/widgets/advanced-posts.php:2314
+#: includes/widgets/advanced-slider.php:1229
 msgid "Button Padding"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:2079
-#: includes/widgets/advanced-posts.php:2114
-#: includes/widgets/advanced-posts.php:2340
-#: includes/widgets/advanced-posts.php:2381
-#: includes/widgets/advanced-slider.php:1250
-#: includes/widgets/advanced-slider.php:1285
+#: includes/widgets/advanced-posts.php:2082
+#: includes/widgets/advanced-posts.php:2117
+#: includes/widgets/advanced-posts.php:2343
+#: includes/widgets/advanced-posts.php:2384
+#: includes/widgets/advanced-slider.php:1251
+#: includes/widgets/advanced-slider.php:1286
 #: includes/widgets/price-table.php:616
 #: includes/widgets/price-table.php:796
 msgid "Button Font Color"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:2092
-#: includes/widgets/advanced-posts.php:2126
-#: includes/widgets/advanced-posts.php:2356
-#: includes/widgets/advanced-posts.php:2396
-#: includes/widgets/advanced-slider.php:1263
-#: includes/widgets/advanced-slider.php:1297
+#: includes/widgets/advanced-posts.php:2095
+#: includes/widgets/advanced-posts.php:2129
+#: includes/widgets/advanced-posts.php:2359
+#: includes/widgets/advanced-posts.php:2399
+#: includes/widgets/advanced-slider.php:1264
+#: includes/widgets/advanced-slider.php:1298
 #: includes/widgets/price-table.php:627
 #: includes/widgets/price-table.php:806
 msgid "Button Background Color"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:2145
+#: includes/widgets/advanced-posts.php:2148
 msgid "Load More (Pagination)"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:2181
+#: includes/widgets/advanced-posts.php:2184
 msgid "Icon size"
 msgstr ""
 
-#: includes/widgets/advanced-posts.php:2418
+#: includes/widgets/advanced-posts.php:2421
 msgid "Navigation (Pagination)"
 msgstr ""
 
-#: includes/widgets/advanced-slider.php:79
-#: includes/widgets/advanced-slider.php:81
-#: includes/widgets/advanced-slider.php:791
+#: includes/widgets/advanced-slider.php:80
+#: includes/widgets/advanced-slider.php:82
+#: includes/widgets/advanced-slider.php:792
 #: includes/widgets/price-table.php:84
 #: includes/widgets/price-table.php:87
 #: includes/widgets/testimonial-carousel.php:122
@@ -2920,13 +2923,13 @@ msgstr ""
 msgid "Subtitle"
 msgstr ""
 
-#: includes/widgets/advanced-slider.php:99
-#: includes/widgets/advanced-slider.php:1021
+#: includes/widgets/advanced-slider.php:100
+#: includes/widgets/advanced-slider.php:1022
 #: includes/widgets/banner.php:114
 #: includes/widgets/flip-box.php:279
 #: includes/widgets/flip-box.php:356
-#: includes/widgets/flip-box.php:873
-#: includes/widgets/flip-box.php:1060
+#: includes/widgets/flip-box.php:875
+#: includes/widgets/flip-box.php:1066
 #: includes/widgets/horizontal-timeline.php:159
 #: includes/widgets/horizontal-timeline.php:171
 #: includes/widgets/horizontal-timeline.php:827
@@ -2941,126 +2944,126 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: includes/widgets/advanced-slider.php:109
+#: includes/widgets/advanced-slider.php:110
 #: includes/widgets/flip-box.php:382
 #: includes/widgets/image-accordion.php:279
 msgid "Button Text"
 msgstr ""
 
-#: includes/widgets/advanced-slider.php:111
-#: includes/widgets/advanced-slider.php:1136
-#: includes/widgets/flip-box.php:1119
+#: includes/widgets/advanced-slider.php:112
+#: includes/widgets/advanced-slider.php:1137
+#: includes/widgets/flip-box.php:1127
 #: includes/widgets/image-accordion.php:837
 msgid "Button"
 msgstr ""
 
-#: includes/widgets/advanced-slider.php:119
+#: includes/widgets/advanced-slider.php:120
 msgid "URL"
 msgstr ""
 
-#: includes/widgets/advanced-slider.php:134
+#: includes/widgets/advanced-slider.php:135
 msgid "Custom Alignment"
 msgstr ""
 
-#: includes/widgets/advanced-slider.php:201
+#: includes/widgets/advanced-slider.php:202
 msgid "Subtitle Alignment"
 msgstr ""
 
-#: includes/widgets/advanced-slider.php:257
+#: includes/widgets/advanced-slider.php:258
 msgid "Description Alignment"
 msgstr ""
 
-#: includes/widgets/advanced-slider.php:285
+#: includes/widgets/advanced-slider.php:286
 #: includes/widgets/price-table.php:340
 msgid "Button Alignment"
 msgstr ""
 
-#: includes/widgets/advanced-slider.php:326
+#: includes/widgets/advanced-slider.php:327
 msgctxt "Background Control"
 msgid "Image Attachment"
 msgstr ""
 
-#: includes/widgets/advanced-slider.php:330
+#: includes/widgets/advanced-slider.php:331
 msgctxt "Background Control"
 msgid "Default"
 msgstr ""
 
-#: includes/widgets/advanced-slider.php:331
+#: includes/widgets/advanced-slider.php:332
 msgctxt "Background Control"
 msgid "Scroll"
 msgstr ""
 
-#: includes/widgets/advanced-slider.php:332
+#: includes/widgets/advanced-slider.php:333
 msgctxt "Background Control"
 msgid "Fixed"
 msgstr ""
 
-#: includes/widgets/advanced-slider.php:352
-#: includes/widgets/advanced-slider.php:384
+#: includes/widgets/advanced-slider.php:353
+#: includes/widgets/advanced-slider.php:385
 msgctxt "Background Control"
 msgid "Image Position"
-msgstr ""
-
-#: includes/widgets/advanced-slider.php:355
-#: includes/widgets/advanced-slider.php:387
-msgctxt "Background Control"
-msgid "Center Center"
 msgstr ""
 
 #: includes/widgets/advanced-slider.php:356
 #: includes/widgets/advanced-slider.php:388
 msgctxt "Background Control"
-msgid "Center Left"
+msgid "Center Center"
 msgstr ""
 
 #: includes/widgets/advanced-slider.php:357
 #: includes/widgets/advanced-slider.php:389
 msgctxt "Background Control"
-msgid "Center Right"
+msgid "Center Left"
 msgstr ""
 
 #: includes/widgets/advanced-slider.php:358
 #: includes/widgets/advanced-slider.php:390
 msgctxt "Background Control"
-msgid "Top Center"
+msgid "Center Right"
 msgstr ""
 
 #: includes/widgets/advanced-slider.php:359
 #: includes/widgets/advanced-slider.php:391
 msgctxt "Background Control"
-msgid "Top Left"
+msgid "Top Center"
 msgstr ""
 
 #: includes/widgets/advanced-slider.php:360
 #: includes/widgets/advanced-slider.php:392
 msgctxt "Background Control"
-msgid "Top Right"
+msgid "Top Left"
 msgstr ""
 
 #: includes/widgets/advanced-slider.php:361
 #: includes/widgets/advanced-slider.php:393
 msgctxt "Background Control"
-msgid "Bottom Center"
+msgid "Top Right"
 msgstr ""
 
 #: includes/widgets/advanced-slider.php:362
 #: includes/widgets/advanced-slider.php:394
 msgctxt "Background Control"
-msgid "Bottom Left"
+msgid "Bottom Center"
 msgstr ""
 
 #: includes/widgets/advanced-slider.php:363
 #: includes/widgets/advanced-slider.php:395
 msgctxt "Background Control"
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/widgets/advanced-slider.php:364
+#: includes/widgets/advanced-slider.php:396
+msgctxt "Background Control"
 msgid "Bottom Right"
 msgstr ""
 
-#: includes/widgets/advanced-slider.php:411
+#: includes/widgets/advanced-slider.php:412
 #: includes/widgets/testimonial-carousel.php:253
 msgid "Slides"
 msgstr ""
 
-#: includes/widgets/advanced-slider.php:417
+#: includes/widgets/advanced-slider.php:418
 #: includes/widgets/advanced-tabs.php:222
 #: includes/widgets/horizontal-timeline.php:237
 #: includes/widgets/horizontal-timeline.php:243
@@ -3121,7 +3124,7 @@ msgstr ""
 
 #: includes/widgets/advanced-tabs.php:360
 #: includes/widgets/advanced-tabs.php:392
-#: includes/widgets/countdown.php:410
+#: includes/widgets/countdown.php:409
 msgid "Stretch"
 msgstr ""
 
@@ -3136,7 +3139,7 @@ msgstr ""
 
 #: includes/widgets/advanced-tabs.php:852
 #: includes/widgets/content-switcher.php:647
-#: includes/widgets/image-hotspot.php:274
+#: includes/widgets/image-hotspot.php:243
 #: includes/widgets/image-hotspot.php:313
 #: includes/widgets/lottie-animations.php:287
 msgid "Animation"
@@ -3222,33 +3225,33 @@ msgstr ""
 msgid "Width"
 msgstr ""
 
-#: includes/widgets/circle-progress-bar.php:137
+#: includes/widgets/circle-progress-bar.php:138
 msgid "Progress"
 msgstr ""
 
-#: includes/widgets/circle-progress-bar.php:138
+#: includes/widgets/circle-progress-bar.php:139
 #: includes/widgets/price-menu.php:301
 msgid "In Percent (%)"
 msgstr ""
 
-#: includes/widgets/circle-progress-bar.php:168
+#: includes/widgets/circle-progress-bar.php:169
 msgid "Round Corners"
 msgstr ""
 
-#: includes/widgets/circle-progress-bar.php:177
+#: includes/widgets/circle-progress-bar.php:178
 #: includes/widgets/flip-box.php:220
 msgid "Circle"
 msgstr ""
 
-#: includes/widgets/circle-progress-bar.php:186
+#: includes/widgets/circle-progress-bar.php:187
 msgid "Background Padding"
 msgstr ""
 
-#: includes/widgets/circle-progress-bar.php:207
+#: includes/widgets/circle-progress-bar.php:208
 msgid "Line Thickness"
 msgstr ""
 
-#: includes/widgets/circle-progress-bar.php:230
+#: includes/widgets/circle-progress-bar.php:231
 #: includes/widgets/testimonial-carousel.php:491
 msgid "Text Typography"
 msgstr ""
@@ -3323,128 +3326,128 @@ msgstr ""
 msgid "Content Style"
 msgstr ""
 
-#: includes/widgets/countdown.php:89
+#: includes/widgets/countdown.php:88
 msgid "Select Date"
 msgstr ""
 
 #. translators: %s: Time zone.
-#: includes/widgets/countdown.php:93
+#: includes/widgets/countdown.php:92
 msgid "Date set according to your timezone: %s."
 msgstr ""
 
-#: includes/widgets/countdown.php:100
-#: includes/widgets/countdown.php:266
+#: includes/widgets/countdown.php:99
+#: includes/widgets/countdown.php:265
+#: includes/widgets/countdown.php:267
 #: includes/widgets/countdown.php:268
-#: includes/widgets/countdown.php:269
 msgid "Years"
 msgstr ""
 
-#: includes/widgets/countdown.php:111
-#: includes/widgets/countdown.php:281
+#: includes/widgets/countdown.php:110
+#: includes/widgets/countdown.php:280
+#: includes/widgets/countdown.php:282
 #: includes/widgets/countdown.php:283
-#: includes/widgets/countdown.php:284
 msgid "Months"
 msgstr ""
 
-#: includes/widgets/countdown.php:122
-#: includes/widgets/countdown.php:296
+#: includes/widgets/countdown.php:121
+#: includes/widgets/countdown.php:295
+#: includes/widgets/countdown.php:297
 #: includes/widgets/countdown.php:298
-#: includes/widgets/countdown.php:299
 msgid "Weeks"
 msgstr ""
 
-#: includes/widgets/countdown.php:133
-#: includes/widgets/countdown.php:311
+#: includes/widgets/countdown.php:132
+#: includes/widgets/countdown.php:310
+#: includes/widgets/countdown.php:312
 #: includes/widgets/countdown.php:313
-#: includes/widgets/countdown.php:314
 msgid "Days"
 msgstr ""
 
-#: includes/widgets/countdown.php:144
-#: includes/widgets/countdown.php:326
+#: includes/widgets/countdown.php:143
+#: includes/widgets/countdown.php:325
+#: includes/widgets/countdown.php:327
 #: includes/widgets/countdown.php:328
-#: includes/widgets/countdown.php:329
 msgid "Hours"
 msgstr ""
 
-#: includes/widgets/countdown.php:155
-#: includes/widgets/countdown.php:341
+#: includes/widgets/countdown.php:154
+#: includes/widgets/countdown.php:340
+#: includes/widgets/countdown.php:342
 #: includes/widgets/countdown.php:343
-#: includes/widgets/countdown.php:344
 msgid "Minutes"
 msgstr ""
 
-#: includes/widgets/countdown.php:166
-#: includes/widgets/countdown.php:356
+#: includes/widgets/countdown.php:165
+#: includes/widgets/countdown.php:355
+#: includes/widgets/countdown.php:357
 #: includes/widgets/countdown.php:358
-#: includes/widgets/countdown.php:359
 msgid "Seconds"
 msgstr ""
 
-#: includes/widgets/countdown.php:177
+#: includes/widgets/countdown.php:176
 msgid "Actions After Expire"
 msgstr ""
 
-#: includes/widgets/countdown.php:178
+#: includes/widgets/countdown.php:177
 msgid "Redirect, hide or show custom message"
 msgstr ""
 
-#: includes/widgets/countdown.php:181
+#: includes/widgets/countdown.php:180
 msgid "Redirect"
 msgstr ""
 
-#: includes/widgets/countdown.php:183
+#: includes/widgets/countdown.php:182
 msgid "Show Message"
 msgstr ""
 
-#: includes/widgets/countdown.php:195
+#: includes/widgets/countdown.php:194
 msgid "Message"
 msgstr ""
 
-#: includes/widgets/countdown.php:211
+#: includes/widgets/countdown.php:210
 msgid "Redirect URL"
 msgstr ""
 
-#: includes/widgets/countdown.php:243
+#: includes/widgets/countdown.php:242
 msgid "Show Label"
 msgstr ""
 
-#: includes/widgets/countdown.php:255
+#: includes/widgets/countdown.php:254
 msgid "Custom Label"
 msgstr ""
 
-#: includes/widgets/countdown.php:371
+#: includes/widgets/countdown.php:370
 msgid "Box Width"
 msgstr ""
 
-#: includes/widgets/countdown.php:391
+#: includes/widgets/countdown.php:390
 msgid "Box Alignment"
 msgstr ""
 
-#: includes/widgets/countdown.php:441
+#: includes/widgets/countdown.php:440
 msgid "Space Between"
 msgstr ""
 
-#: includes/widgets/countdown.php:476
+#: includes/widgets/countdown.php:475
 msgid "Digits Typography"
 msgstr ""
 
-#: includes/widgets/countdown.php:487
+#: includes/widgets/countdown.php:486
 msgid "Label Typography"
 msgstr ""
 
-#: includes/widgets/countdown.php:505
-#: includes/widgets/countdown.php:547
+#: includes/widgets/countdown.php:504
+#: includes/widgets/countdown.php:546
 msgid "Box Color"
 msgstr ""
 
-#: includes/widgets/countdown.php:516
-#: includes/widgets/countdown.php:558
+#: includes/widgets/countdown.php:515
+#: includes/widgets/countdown.php:557
 msgid "Digit Color"
 msgstr ""
 
-#: includes/widgets/countdown.php:527
-#: includes/widgets/countdown.php:569
+#: includes/widgets/countdown.php:526
+#: includes/widgets/countdown.php:568
 msgid "Label Color"
 msgstr ""
 
@@ -3619,7 +3622,7 @@ msgid "Background"
 msgstr ""
 
 #: includes/widgets/flip-box.php:330
-#: includes/widgets/flip-box.php:912
+#: includes/widgets/flip-box.php:916
 msgid "Back"
 msgstr ""
 
@@ -3642,7 +3645,7 @@ msgid "https://your-link.com"
 msgstr ""
 
 #: includes/widgets/flip-box.php:497
-#: includes/widgets/flip-box.php:958
+#: includes/widgets/flip-box.php:962
 msgid "Vertical Position"
 msgstr ""
 
@@ -3663,14 +3666,14 @@ msgid "Icon Rotation"
 msgstr ""
 
 #: includes/widgets/flip-box.php:668
-#: includes/widgets/flip-box.php:1239
+#: includes/widgets/flip-box.php:1249
 #: includes/widgets/image-accordion.php:939
 #: includes/widgets/table.php:775
 msgid "Border Width"
 msgstr ""
 
-#: includes/widgets/flip-box.php:1178
-#: includes/widgets/flip-box.php:1224
+#: includes/widgets/flip-box.php:1188
+#: includes/widgets/flip-box.php:1234
 #: includes/widgets/horizontal-timeline.php:518
 #: includes/widgets/horizontal-timeline.php:565
 #: includes/widgets/horizontal-timeline.php:1110
@@ -3977,52 +3980,52 @@ msgstr ""
 msgid "Tooltip"
 msgstr ""
 
-#: includes/widgets/image-hotspot.php:190
-msgid "Tooltip Content"
-msgstr ""
-
-#: includes/widgets/image-hotspot.php:222
+#: includes/widgets/image-hotspot.php:191
 msgid "Use Arrow"
 msgstr ""
 
-#: includes/widgets/image-hotspot.php:237
+#: includes/widgets/image-hotspot.php:206
 msgid "Placement"
 msgstr ""
 
-#: includes/widgets/image-hotspot.php:255
+#: includes/widgets/image-hotspot.php:224
 msgid "Theme"
 msgstr ""
 
-#: includes/widgets/image-hotspot.php:259
+#: includes/widgets/image-hotspot.php:228
 msgid "Light"
 msgstr ""
 
-#: includes/widgets/image-hotspot.php:261
+#: includes/widgets/image-hotspot.php:230
 msgid "Light Border"
 msgstr ""
 
-#: includes/widgets/image-hotspot.php:262
+#: includes/widgets/image-hotspot.php:231
 msgid "Google"
 msgstr ""
 
-#: includes/widgets/image-hotspot.php:263
+#: includes/widgets/image-hotspot.php:232
 msgid "Translucent"
 msgstr ""
 
-#: includes/widgets/image-hotspot.php:278
+#: includes/widgets/image-hotspot.php:247
 msgid "Shift Away"
 msgstr ""
 
-#: includes/widgets/image-hotspot.php:279
+#: includes/widgets/image-hotspot.php:248
 msgid "Shift Toward"
 msgstr ""
 
-#: includes/widgets/image-hotspot.php:281
+#: includes/widgets/image-hotspot.php:250
 msgid "Scale"
 msgstr ""
 
-#: includes/widgets/image-hotspot.php:282
+#: includes/widgets/image-hotspot.php:251
 msgid "Perspective"
+msgstr ""
+
+#: includes/widgets/image-hotspot.php:292
+msgid "Tooltip Content"
 msgstr ""
 
 #: includes/widgets/image-hotspot.php:344

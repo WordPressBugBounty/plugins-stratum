@@ -277,7 +277,7 @@ class Flip_box extends Stratum_Widget_Base {
 						'front_description_text',
 						[
 							'label' => esc_html__( 'Description', 'stratum' ),
-							'type' => Controls_Manager::TEXTAREA,
+							'type' => Controls_Manager::WYSIWYG,
 							'default' => esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.', 'stratum' ),
 							'placeholder' => esc_html__( 'Enter your description', 'stratum' ),
 							'separator' => 'none',
@@ -354,7 +354,7 @@ class Flip_box extends Stratum_Widget_Base {
 						'back_description_text',
 						[
 							'label' => esc_html__( 'Description', 'stratum' ),
-							'type' => Controls_Manager::TEXTAREA,
+							'type' => Controls_Manager::WYSIWYG,
 							'default' => esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.', 'stratum' ),
 							'placeholder' => esc_html__( 'Enter your description', 'stratum' ),
 							'separator' => 'none',
@@ -1299,11 +1299,11 @@ class Flip_box extends Stratum_Widget_Base {
 		$icon_wrapper = $this->get_render_attribute_string( 'icon-wrapper' );
 		$icon = $settings['selected_icon'];
 
-		$out .= "<div ".$icon_wrapper."'>";
-			$out .= "<div class='".esc_attr( $this->get_name().'__icon' )."'>";
-				$out .= "<i class='".esc_attr( $icon )."'></i>";
-			$out .= "</div>";
-		$out .= "</div>";
+		$out .= '<div ' . $icon_wrapper . '>';
+			$out .= '<div class="' . esc_attr( $this->get_name() . '__icon' ) . '">';
+				$out .= '<i class="' . esc_attr( $icon ) . '"></i>';
+			$out .= '</div>';
+		$out .= '</div>';
 
 		return $out;
 	}

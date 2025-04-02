@@ -38,8 +38,9 @@ $subtitle_typography_html_tag = stratum_validate_heading_html_tag( $subtitle_typ
 										$srcset 		 = wp_get_attachment_image_srcset( $id, 'full' );
 										$url    		 = wp_get_attachment_image_url   ( $id, 'full' );
 										$src_url 		 = empty( $url ) ? $url_placeholder : $url;
+										$alt             = trim( strip_tags( get_post_meta( $id, '_wp_attachment_image_alt', true ) ) );
 										?>
-										<img src="<?php echo esc_url( $src_url ); ?>" class="<?php
+										<img src="<?php echo esc_url( $src_url ); ?>" alt="<?php echo esc_attr( $alt ); ?>" class="<?php
 											echo esc_attr( $class . '__image' ) . " wp-image-" . esc_attr( $id ) ?>" srcset="<?php
 											echo $srcset; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>"/>
 									<?php } ?>
@@ -54,7 +55,7 @@ $subtitle_typography_html_tag = stratum_validate_heading_html_tag( $subtitle_typ
 										</<?php echo esc_html( $subtitle_typography_html_tag ); ?>>
 										</div>
 									<div class="<?php echo esc_attr( $class . "__text" ); ?>">
-										<?php echo esc_html( $item[ 'content' ] ); ?>
+										<?php echo wp_kses_post( $item[ 'content' ] ); ?>
 									</div>
 								</div>
 							</div>

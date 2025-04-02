@@ -49,7 +49,7 @@ $class = 'stratum-price-menu';
 							?>
                             <span class="<?php echo esc_attr( $class . '__price' ); ?>"><?php echo esc_html( $menu_price ); ?></span>
                         </div>
-                        <div class="<?php echo esc_attr( $class . '__description' ); ?>"><?php echo esc_html( $item[ 'menu_description' ] ); ?></div>
+                        <div class="<?php echo esc_attr( $class . '__description' ); ?>"><?php echo wp_kses_post( $item[ 'menu_description' ] ); ?></div>
 						<?php
                         if ( $items_divider == 'yes') {
 							?>

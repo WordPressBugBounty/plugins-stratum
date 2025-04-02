@@ -112,7 +112,7 @@ class Banner extends Stratum_Widget_Base {
 			'text',
 			[
 				'label'   => esc_html__( 'Description', 'stratum' ),
-				'type'    => Controls_Manager::TEXTAREA,
+				'type'    => Controls_Manager::WYSIWYG,
 				'default' => esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.', 'stratum' ),
 				'dynamic' => [ 'active' => true ]
 			]

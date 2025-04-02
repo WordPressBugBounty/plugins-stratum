@@ -57,7 +57,7 @@ $widget_class = $this->get_render_attribute_string( 'widget'  );
                     $description = $settings[ 'front_description_text' ];
 					?>
                     <h3 class="<?php echo esc_attr( $class.'__title' ); ?>"><?php echo esc_html( $title ); ?></h3>
-                    <div class="<?php echo esc_attr( $class.'__description' ); ?>"><?php echo esc_html( $description ); ?></div>
+                    <div class="<?php echo esc_attr( $class.'__description' ); ?>"><?php echo wp_kses_post( $description ); ?></div>
                 </div>
             </div>
         </div>
@@ -70,7 +70,7 @@ $widget_class = $this->get_render_attribute_string( 'widget'  );
                     $description = $settings[ 'back_description_text' ];
 					?>
                     <h3 class="<?php echo esc_attr( $class.'__title' ); ?>"><?php echo esc_html( $title ); ?></h3>
-                    <div class="<?php echo esc_attr( $class.'__description' ); ?>"><?php echo esc_html( $description ); ?></div>
+                    <div class="<?php echo esc_attr( $class.'__description' ); ?>"><?php echo wp_kses_post( $description ); ?></div>
 					<?php
                     if ( !empty($button_text) && $show_button == 'yes' ) {
                         echo $this->flip_box_render_button( $button_text, $link ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped

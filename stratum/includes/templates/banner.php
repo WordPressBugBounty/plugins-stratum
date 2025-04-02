@@ -64,7 +64,7 @@ $srcset = wp_get_attachment_image_srcset($image[ 'id' ], $image_size);
 					<div class="<?php echo esc_attr( $class.'__content-wrapper' ); ?>">
 						<div class="<?php echo esc_attr( $class.'__content-container' ); ?>">
 							<<?php echo esc_html($title_typography_html_tag); ?> class="<?php echo esc_attr( $class.'__title' ); ?>"><?php echo esc_html( $title ); ?></<?php echo esc_html($title_typography_html_tag); ?>>
-							<div class="<?php echo esc_attr( $class.'__text' ); ?>"><?php echo esc_html( $text ); ?></div>
+							<div class="<?php echo esc_attr( $class.'__text' ); ?>"><?php echo wp_kses_post( $text ); ?></div>
 						</div>
                     </div>
                 </figcaption>

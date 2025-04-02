@@ -92,7 +92,7 @@ class Image_Hot_Spot extends Stratum_Widget_Base {
 
 		$repeater->start_controls_tabs( 'hot_spots_tabs' );
 
-			$repeater->start_controls_tab ( 'tab_content', [ 'label' => esc_html__( 'Content', 'stratum' ) ]);
+			$repeater->start_controls_tab ( 'tab_content', [ 'label' => esc_html__( 'Icon', 'stratum' ) ]);
 
 				$repeater->add_control(
 					'hotspot_icon',
@@ -167,37 +167,6 @@ class Image_Hot_Spot extends Stratum_Widget_Base {
 						'label_on'     => esc_html__( 'Yes', 'stratum' ),
 						'label_off'    => esc_html__( 'No' , 'stratum' ),
 						'return_value' => 'yes'
-					]
-				);
-
-				$repeater->add_control(
-					'tooltip_title',
-					[
-						'label'			=> esc_html__( 'Title', 'stratum' ),
-						'type'			=> Controls_Manager::TEXT,
-						'default' 		=> esc_html__( 'Lorem ipsum dolor sit amet.', 'stratum' ),
-						'label_block'	=> true,
-						'placeholder'	=> esc_html__( 'Type your title here...', 'stratum' ),
-						'condition'		=> [
-							'tooltip' => 'yes'
-						]
-					]
-				);
-
-				$repeater->add_control(
-					'tooltip_content',
-					[
-						'label'			=> esc_html__( 'Tooltip Content', 'stratum' ),
-						'type'			=> Controls_Manager::TEXTAREA,
-						'dynamic'		=> [
-							'active' => true,
-						],
-						'default'		=> esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.', 'stratum' ),
-						'label_block'	=> true,
-						'placeholder'	=> esc_html__( 'Type your content here...', 'stratum' ),
-						'condition'		=> [
-							'tooltip' => 'yes'
-						]
 					]
 				);
 
@@ -298,6 +267,37 @@ class Image_Hot_Spot extends Stratum_Widget_Base {
 							'click' => esc_html__( 'Click', 'stratum' )
 						],
 						'condition' => [
+							'tooltip' => 'yes'
+						]
+					]
+				);
+
+				$repeater->add_control(
+					'tooltip_title',
+					[
+						'label'			=> esc_html__( 'Title', 'stratum' ),
+						'type'			=> Controls_Manager::TEXT,
+						'default' 		=> esc_html__( 'Lorem ipsum dolor sit amet.', 'stratum' ),
+						'label_block'	=> true,
+						'placeholder'	=> esc_html__( 'Type your title here...', 'stratum' ),
+						'condition'		=> [
+							'tooltip' => 'yes'
+						]
+					]
+				);
+
+				$repeater->add_control(
+					'tooltip_content',
+					[
+						'label'			=> esc_html__( 'Tooltip Content', 'stratum' ),
+						'type'			=> Controls_Manager::WYSIWYG,
+						'dynamic'		=> [
+							'active' => true,
+						],
+						'default'		=> esc_html__( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.', 'stratum' ),
+						'label_block'	=> true,
+						'placeholder'	=> esc_html__( 'Type your content here...', 'stratum' ),
+						'condition'		=> [
 							'tooltip' => 'yes'
 						]
 					]
@@ -443,14 +443,14 @@ class Image_Hot_Spot extends Stratum_Widget_Base {
 	public function render_plain_content( $instance = [] ) {}
 
 	public function get_dot_template($class, $dot_class, $wrapper_class, $icon_class, $type, $item = null) {
-		$out = "";
-		$out .= "<div ".$dot_class.">";
-			$out .= "<div ".$wrapper_class."'>";
-				$out .= "<div class='".esc_attr( $class."__dot-content" )."'>";
-					$out .= "<i class='".esc_attr( $class."__dot-icon ".$icon_class )."'></i>";
-				$out .= "</div>";
-			$out .= "</div>";
-		$out .= "</div>";
+		$out = '';
+		$out .= '<div ' . $dot_class . '>';
+			$out .= '<div ' . $wrapper_class . '>';
+				$out .= '<div class="' . esc_attr( $class . '__dot-content' ) . '">';
+					$out .= '<i class="' . esc_attr( $class . '__dot-icon ' . $icon_class ) . '"></i>';
+				$out .= '</div>';
+			$out .= '</div>';
+		$out .= '</div>';
 
 		return $out;
 	}

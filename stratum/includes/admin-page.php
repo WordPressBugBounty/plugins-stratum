@@ -156,6 +156,14 @@ class Admin_Page {
 
 <!-- start markdowntohtml.com -->
 
+<p>= 1.6.0, Apr 2 2025 =</p>
+<ul>
+<li>Added support for the Elementor Widget DOM Optimization experiment.</li>
+<li>Added support for HTML markup in several widgets.</li>
+<li>The Vertical Timeline widget now displays the date field on mobile devices.</li>
+<li>Minor bug fixes and improvements.</li>
+</ul>
+
 <p>= 1.5.1, Jan 25 2025 =</p>
 <ul>
 <li>Reverted support for the Elementor Widget DOM Optimization experiment due to issues with widget styling.</li>

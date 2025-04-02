@@ -70,7 +70,7 @@ $widget_class = $this->get_render_attribute_string( 'widget' );
 							<?php echo esc_html( $title ); ?>
 						</h3>
                         <div class="<?php echo esc_attr( $class . '__description' ); ?>">
-							<?php echo esc_html( $description ) ?>
+							<?php echo wp_kses_post( $description ) ?>
 						</div>
 						<?php
                         /* #region Render button */
