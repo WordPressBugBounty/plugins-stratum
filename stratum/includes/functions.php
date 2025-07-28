@@ -332,9 +332,9 @@ function stratum_validate_heading_html_tag( $tag ) {
 	return in_array( strtolower( $tag ), $allowed_tags ) ? $tag : 'div';
 }
 
-/** 
+/**
  * Get modulus of an arbitrary precision number.
- **/ 
+ **/
 function stratum_bcmod( $x, $y ) {
 
 	$take = 5;
@@ -348,4 +348,28 @@ function stratum_bcmod( $x, $y ) {
 	while ( strlen($x) );
 
 	return (int)$mod;
+}
+
+function stratum_decode_html_entities( $string ) {
+	$iteration = 1;
+	$max_iterations = 100;
+
+	while ( $iteration <= $max_iterations ) {
+		$decoded = html_entity_decode( $string, ENT_QUOTES | ENT_HTML5 );
+
+		if ( $decoded === $string ) {
+			break;
+		}
+
+		$string = $decoded;
+
+		if ( $iteration === $max_iterations ) {
+			$string = 'Warning: The widget content appears potentially suspicious. Please review it carefully.';
+			break;
+		}
+
+		$iteration++;
+	};
+
+	return $string;
 }

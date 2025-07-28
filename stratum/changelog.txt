@@ -1,3 +1,6 @@
+= 1.4.6, Dec 23 2024 =
+* Improved compatibility with Elementor 3.26.
+
 = 1.4.5, Nov 14 2024 =
 * Minor bugfixes and improvements.
 

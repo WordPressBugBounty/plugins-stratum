@@ -156,6 +156,11 @@ class Admin_Page {
 
 <!-- start markdowntohtml.com -->
 
+<p>= 1.6.1, Jul 28 2025 =</p>
+<ul>
+<li>Improved input sanitization in the Google Maps and Image Hotspot widgets.</li>
+</ul>
+
 <p>= 1.6.0, Apr 2 2025 =</p>
 <ul>
 <li>Added support for the Elementor Widget DOM Optimization experiment.</li>

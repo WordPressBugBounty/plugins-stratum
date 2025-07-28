@@ -3,9 +3,9 @@ Contributors: MotoPress
 Donate link: https://motopress.com/
 Tags: elementor, elementor addons, elementor plugins, elementor widgets, elementor extras, elementor essential addons, page builder, accordion, google map, slider, tabs, instagram, timeline, lottie, countdown, table
 Requires at least: 5.0
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 5.6
-Stable tag: 1.6.0
+Stable tag: 1.6.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -110,6 +110,9 @@ Stratum plugin is distributed under the terms of the GNU GPL.
 
 == Changelog ==
 
+= 1.6.1, Jul 28 2025 =
+* Improved input sanitization in the Google Maps and Image Hotspot widgets.
+
 = 1.6.0, Apr 2 2025 =
 * Added support for the Elementor Widget DOM Optimization experiment.
 * Added support for HTML markup in several widgets.
@@ -126,6 +129,3 @@ Stratum plugin is distributed under the terms of the GNU GPL.
 
 = 1.4.7, Dec 27 2024 =
 * Resolved an issue with the Instagram widget. An Instagram Business account is required, and the app must be reauthorized to function properly.
-
-= 1.4.6, Dec 23 2024 =
-* Improved compatibility with Elementor 3.26.

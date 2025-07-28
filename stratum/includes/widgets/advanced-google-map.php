@@ -730,7 +730,7 @@ class Advanced_Google_Map extends Stratum_Widget_Base {
 	public function get_single_marker_option($marker) {
 		$single_options = [
 			'markerTitle'   => $marker[ 'marker_title' ],
-			'markerContent' => wp_kses_post( $marker[ 'marker_content' ] ),
+			'markerContent' => wp_kses_post( stratum_decode_html_entities( $marker[ 'marker_content' ] ) ),
 			'popupMaxWidth' => $marker[ 'popup_max_width' ],
 			'isOpenPopup' => !empty( $marker[ 'is_open_popup' ] ) ? true : false
 		];
