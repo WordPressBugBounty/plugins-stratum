@@ -75,19 +75,37 @@ class Admin_Page {
 	{
 		global $pagenow;
 
-        if ($pagenow == 'admin.php' && isset($_GET['instagram-token'])) {
-            $stratum_api = get_option( 'stratum_api', [] );
-            $stratum_api['instagram_access_token'] = sanitize_text_field($_GET['instagram-token']);
-            update_option('stratum_api', $stratum_api);
-            delete_transient( 'stratum_instagram_response_data' ); //Delete cache data
+        if ( $pagenow == 'admin.php' &&
+            isset( $_GET['instagram-token'] ) &&
+            isset( $_GET['nonce'] )
+        ) {
 
-            wp_redirect(add_query_arg(
-                    array(
-                        'stratum-instagram-success' => true,
-                    ),
-                    admin_url( 'admin.php?page=stratum-settings#stratum_api' )
-                )
-            ); //Redirect
+            if ( wp_verify_nonce( sanitize_key( $_GET['nonce'] ), 'stratum_nonce_save_instagram_token' ) &&
+                current_user_can( 'manage_options' ) ) {
+
+                $stratum_api = get_option( 'stratum_api', [] );
+                $stratum_api['instagram_access_token'] = sanitize_text_field($_GET['instagram-token']);
+
+                update_option('stratum_api', $stratum_api);
+                delete_transient( 'stratum_instagram_response_data' ); //Delete cache data
+
+                wp_redirect(add_query_arg(
+                        array(
+                            'stratum-instagram-success' => true,
+                        ),
+                        admin_url( 'admin.php?page=stratum-settings#stratum_api' )
+                    )
+                ); //Redirect
+            } else {
+
+                wp_redirect(add_query_arg(
+                        array(
+                            'stratum-instagram-error' => true,
+                        ),
+                        admin_url( 'admin.php?page=stratum-settings#stratum_api' )
+                    )
+                ); //Redirect
+            }
         }
 
 		if (isset($_GET['stratum-instagram-success'])) {
@@ -155,6 +173,11 @@ class Admin_Page {
 			<div class="stratum-about-list">
 
 <!-- start markdowntohtml.com -->
+
+<p>= 1.6.2, Dec 19 2025 =</p>
+<ul>
+<li>Security: Enhanced permission checks when connecting to Instagram.</li>
+</ul>
 
 <p>= 1.6.1, Jul 28 2025 =</p>
 <ul>
@@ -384,6 +407,19 @@ class Admin_Page {
 		$encryption = new String_Encryption();
 		$stratum_api = get_option( 'stratum_api', [] );
 		$instagram_access_token = isset( $stratum_api['instagram_access_token'] ) ? $encryption->decrypt( $stratum_api['instagram_access_token'] ) : '';
+
+        $instagramConnectURL = add_query_arg(
+            ['nonce' => wp_create_nonce('stratum_nonce_save_instagram_token') ],
+            admin_url( 'admin.php' )
+        );
+
+        $instagramRefreshURL = add_query_arg(
+            [
+                'nonce' => wp_create_nonce('stratum_nonce_save_instagram_token'),
+                'page'  => 'stratum-settings#stratum_api'
+            ],
+            admin_url( 'admin.php' )
+        );
 
         $settings_fields = apply_filters( 'stratum_settings_fields', array(
             'stratum_widgets' => apply_filters( 'stratum_required_widgets', array(
@@ -619,7 +655,7 @@ class Admin_Page {
 					'desc_link'  => esc_url(
 						'https://www.instagram.com/oauth/authorize?enable_fb_login=0&force_authentication=0&client_id=1815611002603068&redirect_uri=' .
 						'https://api.getmotopress.com/get_instagram_token2.php&scope=instagram_business_basic&response_type=code&state=' .
-						admin_url( 'admin.php' )
+						$instagramConnectURL
 					),
 					'type' => 'text',
 					'is_encrypted' => true,
@@ -638,7 +674,7 @@ class Admin_Page {
 			$settings_fields['stratum_api']['instagram_access_token']['desc_extra_class'] = 'large';
 			$settings_fields['stratum_api']['instagram_access_token']['desc_extra_link'] = esc_url(
 				'https://api.getmotopress.com/refresh_instagram_token2.php?access_token='.$instagram_access_token.'&state=' .
-				admin_url( 'admin.php?page=stratum-settings#stratum_api' )
+				$instagramRefreshURL
 			);
 
 			try {

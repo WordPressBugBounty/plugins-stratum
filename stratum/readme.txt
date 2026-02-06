@@ -1,22 +1,22 @@
-=== Stratum - Elementor Widgets ===
+=== Stratum Widgets for Elementor ===
 Contributors: MotoPress
 Donate link: https://motopress.com/
 Tags: elementor, elementor addons, elementor plugins, elementor widgets, elementor extras, elementor essential addons, page builder, accordion, google map, slider, tabs, instagram, timeline, lottie, countdown, table
 Requires at least: 5.0
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 5.6
-Stable tag: 1.6.1
+Stable tag: 1.6.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-20+ Premium Elementor widgets, including Advanced Slider, Instagram, Google Maps, Advanced Accordion, Post Grid.
+20+ Premium widgets for Elementor, including Advanced Slider, Instagram, Google Maps, Advanced Accordion, Post Grid.
 
 == Description ==
 
-Stratum is a free collection of 20+ [Elementor addons](https://motopress.com/products/stratum/) with the aim of enhancing the existing widget functionality of your favorite page builder. Not only do Elementor extras by Stratum provide you with highly-customizable elements but also offer automatic adjustment to the visual styling of your current theme.
+Stratum is a free collection of 20+ [widgets for Elementor](https://motopress.com/products/stratum/) with the aim of enhancing the existing widget functionality of your favorite page builder. Not only do extras for Elementor by Stratum provide you with highly-customizable elements but also offer automatic adjustment to the visual styling of your current theme.
 
 * [View Demo](https://stratum.getmotopress.com/)
-* [Stratum Elementor widgets](https://motopress.com/blog/category/stratum-elementor-widgets/) overview
+* [Stratum widgets](https://motopress.com/blog/category/stratum-elementor-widgets/) overview
 * [Facebook Community](https://www.facebook.com/groups/stratumaddon)
 * [Stratum Free/PRO Comparison Table](https://motopress.com/stratum-elementor-widgets-pro-vs-lite/?utm_source=wp-org-stratum-page&utm_medium=text-link&utm_campaign=stratum-pro-table)
 
@@ -31,9 +31,9 @@ Stratum is a free collection of 20+ [Elementor addons](https://motopress.com/pro
 * Compatible with other Elementor addons;
 * Fully-adaptive Elementor kit.
 
-== LIST OF FREE ELEMENTOR WIDGETS ==
+== LIST OF FREE WIDGETS FOR ELEMENTOR ==
 
-Take a look at the entire collection of Elementor essential addons by Stratum:
+Take a look at the entire collection of essential addons for Elementor by Stratum:
 
 1. [Advanced Accordion](https://stratum.getmotopress.com/advanced-accordion/) - create interactive content using the horizontal accordion tabs; change the accordion type to toggle; integrate the accordion to your custom Library templates.
 1. [Advanced Google Map](https://stratum.getmotopress.com/advanced-google-map/) - insert your business location on an interactive Google map; use the unlimited number of Google Maps custom markets and map styles.
@@ -67,11 +67,11 @@ Unlike many other third-party Elementor plugins, Stratum offers premium addons f
 
 The Stratum's widgets for Elementor help you add business-critical content modules to your website built with the Elementor page builder, including animated promo banners, ready-to-go elements for restaurant menus, pricing and comparison tables, and more beautiful content. Elementor plus Stratum means Elementor premium addons without extra charge!
 
-All Stratum Elementor widgets are free, while advanced customization settings are available only in a PRO Stratum version.
+All Stratum widgets for Elementor are free, while advanced customization settings are available only in a PRO Stratum version.
 
 [Check out all the extra features of Stratum](https://motopress.com/stratum-elementor-widgets-pro-vs-lite/?utm_source=wp-org-stratum-page&utm_medium=text-link&utm_campaign=stratum-pro).
 
-== Ready-To-Go Styling of all Elementor Addons ==
+== Ready-To-Go Styling ==
 
 The unique feature that differs Stratum for Elementor from many other premium third-party addons is the ability of any widget to inherit the styling of the current Elementor theme (typography and colors).
 
@@ -79,14 +79,18 @@ The default design set by Stratum addon is able to reduce the time for customizi
 
 == Template Library Integration ==
 
-Integrating custom theme content into Stratum Elementor addons means increasing your working efficiency. Stratum stands for fast yet beautiful and advanced editing as in premium add ons.
+Integrating custom theme content into Stratum addons means increasing your working efficiency. Stratum stands for fast yet beautiful and advanced editing as in premium add ons.
 
 == Build a Mega Menu with Elementor ==
 
-Want to create a content-rich site navigation menu with Elementor widgets? The Stratum Mega Menu Elementor addon is the solution - you can feature your products, posts, banners or whatever content in submenus and fully tweak their styling. Get Elementor PRO addons for free!
+Want to create a content-rich site navigation menu with Elementor widgets? The Stratum Mega Menu for Elementor addon is the solution - you can feature your products, posts, banners or whatever content in submenus and fully tweak their styling. Get PRO addons for Elementor for free!
 
-* [Startum Elementor Mega Menu Plugin](https://motopress.com/products/stratum-menu/?utm_source=wp_org_stratum_page&utm_medium=text_link&utm_campaign=stratum_mega_menu)
+* [Startum Mega Menu for Elementor Plugin](https://motopress.com/products/stratum-menu/?utm_source=wp_org_stratum_page&utm_medium=text_link&utm_campaign=stratum_mega_menu)
 * [Stratum Mega Menu Demo](https://stratum.getmotopress.com/stratum-mega-menu/?utm_source=wp_org_stratum_page&utm_medium=text_link&utm_campaign=stratum_mega_menu)
+
+== About MotoPress ==
+
+MotoPress is a trusted WordPress developer with over 10 years of experience in creating WordPress tools for content building, including popular [WordPress Booking Plugins](https://motopress.com/products/category/wordpress-booking-plugins/).
 
 == Copyright ==
 
@@ -105,10 +109,13 @@ Stratum plugin is distributed under the terms of the GNU GPL.
 == Installation ==
 
 1. Upload the plugin to the /wp-content/plugins/ directory.
-2. Activate the Stratum - Elementor Addons plugin through the 'Plugins' menu in WordPress. (Elementor must be installed and activated!).
+2. Activate the Stratum Widgets for Elementor plugin through the 'Plugins' menu in WordPress. (Elementor must be installed and activated!).
 3. Find Stratum widgets in Elementor.
 
 == Changelog ==
+
+= 1.6.2, Dec 19 2025 =
+* Security: Enhanced permission checks when connecting to Instagram.
 
 = 1.6.1, Jul 28 2025 =
 * Improved input sanitization in the Google Maps and Image Hotspot widgets.
